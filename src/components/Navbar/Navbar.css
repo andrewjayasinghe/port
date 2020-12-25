@@ -33,6 +33,21 @@ color: #D60B52;
     font-weight: bold;
 } 
 .nav-font {
+    color: white;
+    /* font-size: 20px; */
+    /* font-family: Roboto; */
+    /* font-style: normal; */
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 35px;
+    margin-top: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 10px;
+    opacity:2;
+    letter-spacing: 2px;
+}
+
+.nav-font2 {
     color: #D60B52;
     /* font-size: 20px; */
     /* font-family: Roboto; */
@@ -54,11 +69,15 @@ color: #D60B52;
      text-shadow: none;
 }
 
+#nav-dropdown{
+    background-color: "#2A3c43";
+}
+
 .nav-font:hover {
-    color:rgb(255, 149, 172);
+    color:white;
     opacity:1;
     text-decoration: none;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.7s ease-in-out;
 
 }
 #logo-nav {
@@ -67,7 +86,7 @@ color: #D60B52;
 @media only screen and (orientation:portrait){
     .nav-font {
         color: #c20346;
-        font-size: 20px;
+        font-size: 17px;
         line-height: 35px;
         margin-top: 7px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

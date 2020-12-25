@@ -21,10 +21,10 @@ class Navbar extends Component {
               
               
               
-    <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav" className="">
+    <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav" >
   
       <ReactBootStrap.Nav className='nav-size' >
-      <ReactBootStrap.NavDropdown title="Projects" id="basic-nav-dropdown" className="nav-font" variant="dark" >
+      <ReactBootStrap.NavDropdown title="Projects" id="nav-dropdown" className="nav-font" style={{boxShadow: "none", color:"white"}} >
         <ReactBootStrap.NavDropdown.Item href="https://andrewjayasinghe.github.io/Hangman/Hangman/" target="_blank" >Hangman Game</ReactBootStrap.NavDropdown.Item>      
           <ReactBootStrap.NavDropdown.Divider />
         <ReactBootStrap.NavDropdown.Item href="https://dansljardin.herokuapp.com/#/" target="_blank">Dans L' Jardin (Book a Musician)</ReactBootStrap.NavDropdown.Item>
@@ -32,11 +32,11 @@ class Navbar extends Component {
         <ReactBootStrap.NavDropdown.Item href="https://headstartschildcare.com/#/" target="_blank" >Headstarts Day Care Website</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Divider />
       </ReactBootStrap.NavDropdown>
-        <ReactBootStrap.Nav.Link href={process.env.PUBLIC_URL + '/#/'} className="nav-font" id="home" >Term-1</ReactBootStrap.Nav.Link >
-        <ReactBootStrap.Nav.Link  href={process.env.PUBLIC_URL + '/#/Term2'} className="nav-font" id="faq" >Term-2</ReactBootStrap.Nav.Link >
+        <ReactBootStrap.Nav.Link href={process.env.PUBLIC_URL + '/#/'} className="nav-font" id="home">Term-1</ReactBootStrap.Nav.Link >
+        <ReactBootStrap.Nav.Link  href={process.env.PUBLIC_URL + '/#/Term2'} className="nav-font" id="faq">Term-2</ReactBootStrap.Nav.Link >
         <ReactBootStrap.Nav.Link  href={process.env.PUBLIC_URL + '/#/Term3'} className="nav-font" id="info">Term-3</ReactBootStrap.Nav.Link >
-        <ReactBootStrap.Nav.Link  href={process.env.PUBLIC_URL + '/#/Term4'} className="nav-font" id="about" >Term-4</ReactBootStrap.Nav.Link >
-        <ReactBootStrap.Nav.Link  href={process.env.PUBLIC_URL + '/#/Term4'} className="nav-font" id="about" >Résumé</ReactBootStrap.Nav.Link >
+        <ReactBootStrap.Nav.Link  href={process.env.PUBLIC_URL + '/#/Term4'} className="nav-font" id="about">Term-4</ReactBootStrap.Nav.Link >
+        <ReactBootStrap.Nav.Link  href={process.env.PUBLIC_URL + '/#/T'} className="nav-font" id="resume" >Résumé</ReactBootStrap.Nav.Link >
 
 
    </ReactBootStrap.Nav>
