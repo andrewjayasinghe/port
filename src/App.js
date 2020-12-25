@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+// import Footer from "./components/Footer/Footer";
+
+import Term1 from "./components/term-1/term-1";
+import Term2 from "./components/term-2/term-2";
+import Term3 from "./components/term-3/term-3";
+import Term4 from "./components/term-4/term-4";
+// import Footer from "./components/Footer/Footer";
+
+
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+
+class App extends Component {
+  render() {
+    return (
+
+      <Router>
+
+        <Navbar/>
+        <Switch>
+        <Route exact path="/"><Term1/></Route>
+          {/* <Route exact path="/Register"> <Register/> <Footer/></Route>  */}
+          <Route exact path="/Term2"> <Term2/></Route> 
+          <Route exact path="/Term3"> <Term3/></Route>
+          <Route exact path="/Term4"> <Term4/> </Route>
+        </Switch>
+      </Router>
+
+    );
+  }
 }
 
 export default App;
