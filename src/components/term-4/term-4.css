@@ -1,0 +1,29 @@
+
+
+.size{
+    width:800px;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+
+}
+
+#al{
+    text-align: center;
+    display: block;
+}
+
+
+@font-face {
+    font-family: TextItalic;
+    src: url(./../../assets/fonts/NeutraTextBookItalic.otf);
+}
+@font-face {
+    font-family: TextBold;
+    src: url(./../../assets/fonts/NeutraTextBold.otf);
+}
+@font-face {
+    font-family: TextBook;
+    src: url(./../../assets/fonts/NeutraTextBook.otf);
+}

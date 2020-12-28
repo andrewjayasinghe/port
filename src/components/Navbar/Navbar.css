@@ -6,60 +6,49 @@
     box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75) */
     box-shadow: none;
     border: 0;
-
 }
 
-#logo-href{
-text-decoration: none;
-color: #D60B52;
-    /* font-size: 20px; */
-    /* font-family: Roboto; */
-    /* font-style: normal; */
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
-    margin-top: 7px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-right: 10px;
-    opacity:0.85;
-    letter-spacing: 2px;
 
-}
+@keyframes fadeinLeft {
+    from { opacity: 0; 
+       transform: translateY(-40px);}
+    to   { opacity: 1;
+       transform: translateY(0); }
+   }
 
-.nav-text {
-    font-size: 20px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-} 
 .nav-font {
     color: white;
-    /* font-size: 20px; */
-    /* font-family: Roboto; */
-    /* font-style: normal; */
     font-weight: bold;
     font-size: 21px;
     line-height: 35px;
     margin-top: 7px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: TextBold;
     margin-right: 10px;
     opacity:2;
     letter-spacing: 2px;
+    padding-right: -0.5rem;
+    padding-left: -0.5rem;
+}
+@media only screen and (orientation:landscape){
+    #logo-href{
+        text-decoration: none;
+        color: #ff1515;
+            font-weight:600;
+            font-size: 61px;
+            line-height: 45px;
+            margin-top: 17px;
+            font-family: CamperSans2;
+            animation: fadeinLeft 3s;
+            animation-timing-function: ease-in;
+            letter-spacing: 2px;
+            width: 100%;
+        
+        }
+.drop{
+    font-size: 20px;
 }
 
-.nav-font2 {
-    color: #D60B52;
-    /* font-size: 20px; */
-    /* font-family: Roboto; */
-    /* font-style: normal; */
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 35px;
-    margin-top: 7px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-right: 10px;
-    opacity:0.85;
-    letter-spacing: 2px;
+
 }
 
 .navbar{
@@ -89,11 +78,30 @@ color: #D60B52;
         font-size: 17px;
         line-height: 35px;
         margin-top: 7px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: TextBold;
         opacity:0.85;
+        /* margin-left: 20px; */
     }
-  .nav-font {
-    margin-left: 20px;
+    #logo-href{
+        text-decoration: none;
+        color: #ff1515;
+            /* font-size: 20px; */
+            /* font-family: Roboto; */
+            /* font-style: normal; */
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 35px;
+            margin-top: 7px;
+            font-family: CamperSans2;
+            animation: fadeinLeft 3s;
+            animation-timing-function: ease-in;
+            margin-right: 10px;
+            opacity:0.85;
+            letter-spacing: 2px;
+        
+        }
+    .drop{
+        font-size: 18px;
     }
     .nav-size {
         margin-right: 5px;
@@ -116,3 +124,27 @@ color: #D60B52;
         margin-left: 100px;
     }
   }
+
+
+@font-face {
+    font-family: TextItalic;
+    src: url(./../../assets/fonts/NeutraTextBookItalic.otf);
+}
+@font-face {
+    font-family: TextBold;
+    src: url(./../../assets/fonts/NeutraTextBold.otf);
+}
+@font-face {
+    font-family: TextBook;
+    src: url(./../../assets/fonts/NeutraTextBook.otf);
+}
+
+@font-face {
+    font-family: NeutraLight;
+    src: url(./../../assets/fonts/NeutraTextDemi.otf);
+}
+
+@font-face {
+    font-family: CamperSans2;
+    src: url(./../../assets/fonts/Fenotype\ -\ CamperSans2.otf);
+}
