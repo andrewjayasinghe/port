@@ -12,9 +12,10 @@ class Navbar extends Component {
         return (
 
 
-          <ReactBootStrap.Navbar collapseOnSelect expand="lg" className="color-nav" variant="dark" style={{boxShadow: "none",backgroundColor:"#2A3c43"}}>
-            <div >
-  <a href={process.env.PUBLIC_URL + '/#/'}  id="logo-href">ANDREW JAYASINGHE</a></div>
+          <ReactBootStrap.Navbar collapseOnSelect expand="lg" className="color-nav" variant="dark" style={{backgroundColor:"#2A3c43"}}>
+            <div>
+  <a href={process.env.PUBLIC_URL + '/#/'}  id="logo-href">ANDREW JAYASINGHE</a>
+  </div>
        
 
              <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" className="navDropDown"/>
