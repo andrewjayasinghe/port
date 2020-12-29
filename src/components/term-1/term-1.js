@@ -15,9 +15,18 @@ class Term_1 extends Component {
 
                         <div id="tit">
                             <div id="test"  >
-                                <p id="anum">Courses Completed </p>
-                                <p id="desc">This is a portfolio of my educational background which includes the courses
-                                I've taken at BCIT and a brief description of what i've learned.
+                                <div style={{display:"inline-block", marginRight:"12px"}}>
+                                <ReactBootStrap.Spinner animation="grow" variant="danger" style={{width: "30px", height:"35px" }}/></div>
+                                <div style={{ display: "inline-block" }}>
+                                      <p id="anum"> WELCOME!</p>
+                                </div>
+                               
+                                <div style={{display:"inline-block"}}>
+                                <ReactBootStrap.Spinner animation="grow" variant="warning" style={{ width: "30px", height:"35px" }}/></div>
+
+                                <p id="desc">This is my educational background portfolio which includes the courses
+                                I've completed at BCIT and a brief description of what i've learned from each course.
+                                This page contains all the courses i have completed during Term-1
                         </p>
                             </div>
                         </div>

@@ -355,11 +355,13 @@ li:nth-child(2) > i {
 #anum1{
     text-decoration: none;
     color: white;
+    animation-timing-function: ease-in;
     }
 
     #anum1:hover{
         text-decoration: none;
         color: turquoise;
+        transition: all 1s ease-in-out;
         }
 
 @keyframes fadeLeft {
