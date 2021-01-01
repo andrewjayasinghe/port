@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as ReactBootStrap from "react-bootstrap";
-import con from "../../assets/bun.jpg"
+import ScrollAnimation from 'react-animate-on-scroll';
 import "./term-2.css"
 
 class Term_2 extends Component {
@@ -14,6 +14,8 @@ class Term_2 extends Component {
             <ReactBootStrap.Container style={{ marginTop: "20px" }}>
 
 <ReactBootStrap.Row className="size">
+<ScrollAnimation animateIn='animate__lightSpeedInRight'
+                            animateOut='animate__lightSpeedOutLeft' duration="2">
 
     <div id="tit1">
         <div id="test"  >
@@ -23,17 +25,19 @@ class Term_2 extends Component {
     </p>
         </div>
     </div>
-
+    </ScrollAnimation>
 </ReactBootStrap.Row>
 
 
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
     <div id="alterm2">
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034322/" target="blank" id="anum1" >ACIT 2420</a></p>
-            <p id="well" className="title">Linux System Administration</p>
-            <div id="term2">
+            <p id="well" className="title">Linux System Administration</p>         
+            <div id="term21">
             <p id="desc" className="title">The objective of this course is to teach students
              basic Network Operating System administration tasks using Linux. 
              At the end of the course the students should be able to install
@@ -44,11 +48,16 @@ class Term_2 extends Component {
                  DNS, DHCP, Apache and IP Tables.
               </p>
         </div>
-    </div>
+        </div>
+
+        </ScrollAnimation>
 
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
+
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
 
     <div id="alterm21">
       
@@ -64,13 +73,16 @@ class Term_2 extends Component {
 
         </div>
     </div>
-
+    </ScrollAnimation>
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
+
     <div id="all2">
-        <div id="test3">
+        
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034355/" target="blank" id="anum1" >ACIT 2520</a></p>
             <p id="well" className="title">Web Applications Development</p>
             <p id="desc">Introduced web application development using the MEAN stack
@@ -87,17 +99,20 @@ class Term_2 extends Component {
 </p>
 
         </div>
-    </div>
+        </ScrollAnimation>
 
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
+
     <div id="alterm23">
         
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034319/" target="blank" id="anum1" >ACIT 2620</a></p>
             <p id="well" className="title">Enterprise Networking</p>
-            <div id="term24">
+            <div id="term21">
             <p id="desc"  className="title">
             This course introduces students to core networking concepts,
              terminologies, and their implementations. Topics are 
@@ -109,18 +124,21 @@ class Term_2 extends Component {
                addressing. TCP/IP and the OSI Reference Model are used throughout the course
 </p>
 
-        </div>
-    </div>
+        </div></div>
+        </ScrollAnimation>
 
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
+
     <div id="alterm24">
         
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034328/" target="blank" id="anum1" >ACIT 2811</a></p>
             <p id="well" className="title">UX/UI Development Project</p>
-            <div id="term25">
+            <div id="term21">
             <p id="desc"  className="title">User Experience (UX) encompasses a wide range of
              activities including User Interface (UI) design, Information Architecture (IA) 
              and field research. Usability design and testing, tight integration and 
@@ -133,18 +151,21 @@ class Term_2 extends Component {
                as the motivator for product direction and Figma for mockup creation.
 </p>
 
-        </div>
-    </div>
+        </div></div>
+        </ScrollAnimation>
 
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
+
     <div id="alterm25">
         
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193041874/" target="blank" id="anum1" >ACIT 2911</a></p>
             <p id="well" className="title">Agile Development Project</p>
-            <div id="term26">
+            <div id="term21">
             <p id="desc"  className="title">
                 This course provided me with 
             hands-on experience developing application software using the SCRUM
@@ -154,17 +175,20 @@ class Term_2 extends Component {
               and manage multiple work tasks, and to focus on maintaining a 
               potentially releasable product throughout the project.​
 </p>
-
-        </div>  </div>
-
+</div>
+        </div>
+        </ScrollAnimation>
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
 
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
+
     <div id="alterm26">
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ACIT 2831</a></p>
             <p id="well" className="title">Business Systems Analysis</p>
-            <div id="term26">
+            <div id="term21">
             <p id="desc"  className="title">                                         
             Business Analysis and Systems Design is the study of 
             concepts, processes and tools that professionals
@@ -182,17 +206,21 @@ class Term_2 extends Component {
         
                 </p>
 
-
-        </div>  </div>
+                </div>
+        </div> 
+        </ScrollAnimation>
 
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
 
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
+
     <div id="alterm27">
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >COMM 2216</a></p>
             <p id="well" className="title">Business Communications 2</p>
-            <div id="term26">
+            <div id="term21">
             <p id="desc"  className="title">                                         
             Information technology professionals spend time each day communicating
              orally and in writing with their supervisors, colleagues and clients. 
@@ -207,16 +235,19 @@ class Term_2 extends Component {
                 </p>
 
 
-        </div>  </div>
-
+        </div> </div>
+        </ScrollAnimation>
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
 
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
+
     <div id="alterm28">
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >Math 1350</a></p>
             <p id="well" className="title">Statistics for IT</p>
-            <div id="term26">
+            <div id="term21">
             <p id="desc"  className="title">                                         
             Presentation of data in tabular and graphical form. 
             Frequency distribution, measures of central tendency and variation.
@@ -226,9 +257,9 @@ class Term_2 extends Component {
                problems relevant to information technology.
                 </p>
 
-
-        </div>  </div>
-
+                </div>
+        </div>  
+        </ScrollAnimation>
 </ReactBootStrap.Row>
 
 </ReactBootStrap.Container>

@@ -1,11 +1,11 @@
-
+/* 
 i{ 
     opacity: 0;
     animation-name: fadein;
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-}
+} */
 
 #test{
     animation: fadein 2s;
@@ -100,30 +100,45 @@ i{
  to   { opacity: 1; }
 }
 
-li:nth-child(2) > i {
-    animation-delay: 2s;
-   
+.m{
+     
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+ 
+  }
+  .m1{
+     
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3.5s; /* don't forget to set a duration! */
   }
 
-  li:nth-child(3) > i {
-    animation-delay: 4s;
-    
+  .m2{
+     
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4.5s; /* don't forget to set a duration! */
   }
-  
-  li:nth-child(4) > i {
-    animation-delay: 6s;
+
+  .m3{
+     
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5.5s; /* don't forget to set a duration! */
   }
-  
-  li:nth-child(5) > i {
-    animation-delay: 8s;
+  .m4{
+     
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 6.5s; /* don't forget to set a duration! */
   }
-  
-  li:nth-child(6) > i {
-    animation-delay: 10s;
+  .m5{
+     
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 7.5s; /* don't forget to set a duration! */
   }
-  li:nth-child(7) > i {
-    animation-delay: 12s;
+  .m6{
+     
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 8.5s; /* don't forget to set a duration! */
   }
+
 
   #lit {
     position: relative;
@@ -306,6 +321,7 @@ li:nth-child(2) > i {
 #item:hover{
  transform: scale(1.01);  
  transition: all 0.7s ease-in-out;
+
 }
 
 .title{

@@ -14,8 +14,8 @@ class Term_1 extends Component {
                 <ReactBootStrap.Container style={{ marginTop: "20px" }}>
 
                     <ReactBootStrap.Row className="size">
-                    <ScrollAnimation animateIn='animate__backInDown'
-                            animateOut='animate__backOutDown' duration="3">
+                    <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='animate__zoomOutDown' duration="3">
 
                         <div id="tit">
                             <div id="test"  >
@@ -40,31 +40,28 @@ class Term_1 extends Component {
 
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                    <ScrollAnimation animateIn='bounceInLeft'
-                            animateOut='bounceOutRight' duration="2">  
+                    <ScrollAnimation animateIn='flipInX'
+                            animateOut='flipOutX' duration="2">  
 
                         <div id="al">
-                            <div id="test1">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034322/" target="blank" id="anum1" >ACIT 1620</a></p>
                                 <p id="well" className="title">Fundamental Web Technologies</p>
                                 <p id="desc">This course introduced me to the fundamental principles and
                                 techniques for designing and developing effective Web sites.
                                 Topics included:
                             <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }}>
-                                        <li id="item"><i> Hand-coding pages with HTML </i></li>
-                                        <li id="item"><i> Styling text and
-                            content with CSS </i></li>
-                                        <li id="item"><i> Adding dynamic features with client-side scripting techniques </i></li>
-                                        <li id="item"><i> Server-side scripting and managing files and Web sites using File Transfer Protocol
-                             software such as wordpress </i> </li>
-                                        <li id="item"><i> I was also introduced to information architecture and interface
-                             design, XML, as well as advanced mark-up techniques using DHTML. </i> </li>
-
+                                        <li  className="m" id="item"> Hand-coding pages with HTML</li>
+                                        <li  className="m1" id="item"> Styling text and
+                            content with CSS </li>
+                                        <li  className="m2" id="item"> Adding dynamic features with client-side scripting techniques</li>
+                                        <li  className="m3" id="item"> Server-side scripting and managing files and Web sites using File Transfer Protocol
+                             software such as wordpress </li>
+                                        <li className="m4"  id="item"> I was also introduced to information architecture and interface
+                             design, XML, as well as advanced mark-up techniques using DHTML. </li>
                                     </ul>
 
 
                                 </p>
-                            </div>
                         </div>
                         </ScrollAnimation>
 
@@ -72,25 +69,27 @@ class Term_1 extends Component {
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
 
-                    <ScrollAnimation animateIn='bounceInRight'
-                            animateOut='bounceOutLeft' duration="2">  
+                     <ScrollAnimation animateIn='flipInX'
+                            animateOut='flipOutX' duration="2">   
                         <div id="al1">
-                            <div id="test2">
+                          
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193044280/" target="blank" id="anum1" >ACIT 1420</a></p>
                                 <p id="well" className="title">Windows System Administration</p>
                                 <p id="desc">This course was about the configuration, maintenance, and administration
                                 of a Windows computer.
                                 Topics I studied included:
-     <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
-                                        <li className="test" id="item"><i>An introduction to PC hardware, functions of an
-     Operating System</i></li>
-                                        <li id="item"><i>Windows OS architecture, file and disk management</i></li>
-                                        <li id="item"><i>BIOS, UEFI & Firmware</i></li>
-                                        <li id="item"><i>Multi-boot & virtual machines</i></li>
-                                        <li id="item" ><i>Software installation/removal</i></li>
-                                        <li id="item"><i>Performance tuning</i></li>
-                                        <li id="item" ><i>Data Backup & Protection, troubleshooting, networking, security,
-     virus protection, and firewalls</i></li>
+                                 <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
+                                 
+                            <li className="m">
+                                            An introduction to PC hardware, functions of an
+                                            Operating System</li> 
+                                        <li className="m1">Windows OS architecture, file and disk management</li>
+                                        <li className="m2">BIOS, UEFI & Firmware</li>
+                                        <li className="m3">Multi-boot & virtual machines</li>
+                                        <li className="m4" >Software installation/removal</li>
+                                        <li className="m5">Performance tuning</li>
+                                        <li className="m6" >Data Backup & Protection, troubleshooting, networking, security,
+                                            virus protection, and firewalls</li>
                                     </ul>
 
 
@@ -98,13 +97,13 @@ class Term_1 extends Component {
                                 </p>
 
                             </div>
-                        </div>
+
                         </ScrollAnimation>
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                        <ScrollAnimation animateIn='bounceInLeft'
-                            animateOut='bounceOutRight' duration="2">  
+                        <ScrollAnimation animateIn='flipInX'
+                            animateOut='flipOutX' duration="2">  
                         <div id="al2">
                             <div id="test3">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034355/" target="blank" id="anum1" >ACIT 1630</a></p>
@@ -121,8 +120,8 @@ class Term_1 extends Component {
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                    <ScrollAnimation animateIn='bounceInRight'
-                            animateOut='bounceOutLeftt' duration="2">   
+                    <ScrollAnimation animateIn='flipInX'
+                            animateOut='flipOutX' duration="2">   
                         <div id="al3">
                             <div id="test4">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034319/" target="blank" id="anum1" >ACIT 1515</a></p>
@@ -142,8 +141,8 @@ class Term_1 extends Component {
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                    <ScrollAnimation animateIn='bounceInLeft'
-                            animateOut='bounceOutRight' duration="2">   
+                    <ScrollAnimation animateIn='flipInX'
+                            animateOut='flipOutX' duration="2">   
                         <div id="al4">
                             <div id="test5">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034328/" target="blank" id="anum1" >COMM 1116</a></p>
@@ -158,8 +157,8 @@ class Term_1 extends Component {
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                    <ScrollAnimation animateIn='bounceInLeft'
-                            animateOut='bounceOutRight' duration="2"> 
+                    <ScrollAnimation animateIn='flipInX'
+                            animateOut='flipOutX' duration="2"> 
                         <div id="al5">
                             <div id="test6">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193041874/" target="blank" id="anum1" >MATH 1310</a></p>
@@ -178,8 +177,8 @@ class Term_1 extends Component {
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px", marginBottom: "20px" }}>
-                    <ScrollAnimation animateIn='bounceInRight'
-                            animateOut='bounceOutLeft' duration="2">  
+                    <ScrollAnimation animateIn='flipInX'
+                            animateOut='flipOutX' duration="2">  
                         <div id="al6">
                             <div id="test7">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ORGB 1100</a></p>
@@ -202,24 +201,7 @@ class Term_1 extends Component {
 
 
                 </ReactBootStrap.Container> 
-{/*                 
-           <ScrollAnimation animateIn='fadeIn'
-  animateOut='fadeOut'>
-  <h1>
-    React Animate On Scroll
-  </h1>
-  <h2>
-    Using:
-  </h2>
-</ScrollAnimation>
-<ScrollAnimation animateIn='bounceInRight'
-  animateOut='bounceOutLeft'>
-  <h2>
-    <a href='https://daneden.github.io/animate.css/'>
-      Animate.css
-    </a>
-  </h2>
-</ScrollAnimation> */}
+
 
 
             </>
