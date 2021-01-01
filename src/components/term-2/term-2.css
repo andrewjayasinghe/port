@@ -60,11 +60,10 @@ i{
 
 }
 
-#test6{
+#term26{
     animation: fadein 20s;
-    animation-timing-function: ease-in; 
-    margin-top: 20px;
-    margin-bottom: 20px;  
+    animation-timing-function: ease-in;   
+    text-align: left;  
 }
 
 #test7{
@@ -149,20 +148,27 @@ li:nth-child(2) > i {
 }
 
 #tit1 {
-    background: linear-gradient(-45deg, #f8f400, #405518, #39e405, #09f1bb);
+    background: linear-gradient(-65deg, #32c506, #07ca9d,#405518, #dbd805);
     background-size: 1000% 400%;
     margin: auto;
-    width:65%;
+    width:55%;
     border-radius: 105px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top:5px ;
     padding-bottom:5px ;
     position: relative;
-    animation: mymove1 2s,gradient 16s ease infinite;
-    animation-timing-function: ease-in;       
+    animation: mymove1 2s,gradient 40s ease infinite;
+    animation-timing-function: ease-in;   
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    transform: rotate(-1deg);    
 }
 
+#tit1:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
+}
 
 
 #alterm2 {
@@ -178,8 +184,14 @@ li:nth-child(2) > i {
     position: relative;
     animation: mymove 4s, gradient 15s ease infinite;
     animation-timing-function: ease-in;
- 
-       
+    -ms-transform: rotate(1deg); /* IE 9 */
+    transform: rotate(1deg);   
+}
+
+#alterm2:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
 }
 
 #alterm21 {
@@ -195,11 +207,17 @@ li:nth-child(2) > i {
     position: relative;
     animation: mymove2 6s, gradient 15s ease infinite;
     animation-timing-function: ease-in;   
-       
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    transform: rotate(-1deg);    
 }
 
+#alterm21:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
+}
 
-#al2 {
+#all2 {
     background: linear-gradient(-45deg,#17b18d,#1e80a3,#c05a3a, #c92866);
     background-size: 400% 400%;
     margin: auto;
@@ -212,7 +230,14 @@ li:nth-child(2) > i {
     position: relative;
     animation: mymove 7s, gradient 15s ease infinite;
     animation-timing-function: ease-in;   
-       
+    -ms-transform: rotate(1deg); /* IE 9 */
+    transform: rotate(1deg);         
+}
+
+#all2:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
 }
 
 #alterm23 {
@@ -228,6 +253,14 @@ li:nth-child(2) > i {
     position: relative;
     animation: mymove2 8s, gradient 15s ease infinite;
     animation-timing-function: ease-in;   
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    transform: rotate(-1deg);  
+}
+
+#alterm23:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
 }
 
 #alterm24 {
@@ -243,38 +276,107 @@ li:nth-child(2) > i {
     position: relative;
     animation: mymove 9s, gradient 15s ease infinite;
     animation-timing-function: ease-in;   
+    -ms-transform: rotate(1deg); /* IE 9 */
+    transform: rotate(1deg);  
 }
 
-#al5 {
+#alterm24:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
+}
+
+#alterm25 {
     background: linear-gradient(-45deg, #e73cae,#13789c, #dd8064, #099776);
     background-size: 400% 400%;
     margin: auto;
     width:70%;
-    border-radius: 75px;
-    padding-left: 20px;
+    border-radius: 65px;
+    padding-left: 50px;
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
     animation: mymove2 10s, gradient 15s ease infinite;
-    animation-timing-function: ease-in;   
+    animation-timing-function: ease-in; 
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    transform: rotate(-1deg);    
 }
 
-#al6 {
+#alterm25:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
+}
+
+#alterm26 {
     background: linear-gradient(-45deg, #235bd5, #881541,#087299, #08be63 );
     background-size: 400% 400%;
     margin: auto;
     width:70%;
     border-radius: 105px;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
     animation: mymove 11s,  gradient 15s ease infinite;
-    animation-timing-function: ease-in;   
+    animation-timing-function: ease-in;  
+    -ms-transform: rotate(1deg); /* IE 9 */
+    transform: rotate(1deg);   
 }
 
+#alterm26:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
+}
+
+#alterm27 {
+    background: linear-gradient(-45deg, #235bd5, #881541,#087299, #08be63 );
+    background-size: 400% 400%;
+    margin: auto;
+    width:70%;
+    border-radius: 75px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom:10px;
+    position: relative;
+    animation: mymove 11s,  gradient 15s ease infinite;
+    animation-timing-function: ease-in;  
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    transform: rotate(-1deg);   
+}
+
+#alterm27:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
+}
+
+#alterm28 {
+    background: linear-gradient(-45deg, #235bd5, #881541,#087299, #08be63 );
+    background-size: 400% 400%;
+    margin: auto;
+    width:70%;
+    border-radius: 75px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom:10px;
+    position: relative;
+    animation: mymove 11s,  gradient 15s ease infinite;
+    animation-timing-function: ease-in;  
+    -ms-transform: rotate(1deg); /* IE 9 */
+    transform: rotate(1deg);   
+}
+
+#alterm28:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
+}
 
 @keyframes gradient {
     0% {
@@ -289,7 +391,7 @@ li:nth-child(2) > i {
 }
 
 @keyframes mymove {
-    from {right: -1000px;}
+    from {right: -10px;}
     to {right: 0px;}
   }
 
@@ -299,7 +401,7 @@ li:nth-child(2) > i {
   }
 
   @keyframes mymove2 {
-    from {left: -1000px;}
+    from {left: -10px;}
     to {left: 0px;}
   }
 
@@ -379,7 +481,7 @@ li:nth-child(2) > i {
     to { transform: translateX(0px);}
   }
 
-#desc{
+#desc2{
 
     text-decoration: none;
     color: white;
@@ -457,7 +559,7 @@ li:nth-child(2) > i {
        
 }
 
-#al2 {
+#all2 {
     background: linear-gradient(-45deg,#17b18d,#1e80a3,#c05a3a, #c92866);
     background-size: 400% 400%;
     margin: auto;
@@ -503,7 +605,7 @@ li:nth-child(2) > i {
     animation-timing-function: ease-in;   
 }
 
-#al5 {
+#alterm25 {
     background: linear-gradient(-45deg, #e73cae,#13789c, #dd8064, #099776);
     background-size: 400% 400%;
     margin: auto;
@@ -518,7 +620,37 @@ li:nth-child(2) > i {
     animation-timing-function: ease-in;   
 }
 
-#al6 {
+#alterm26 {
+    background: linear-gradient(-45deg, #235bd5, #881541,#087299, #08be63 );
+    background-size: 400% 400%;
+    margin: auto;
+    width:98%;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+        padding-bottom:10px;
+    position: relative;
+    animation: mymove 11s,  gradient 15s ease infinite;
+    animation-timing-function: ease-in;   
+}
+
+#alterm27 {
+    background: linear-gradient(-45deg, #235bd5, #881541,#087299, #08be63 );
+    background-size: 400% 400%;
+    margin: auto;
+    width:98%;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+        padding-bottom:10px;
+    position: relative;
+    animation: mymove 11s,  gradient 15s ease infinite;
+    animation-timing-function: ease-in;   
+}
+
+#alterm28 {
     background: linear-gradient(-45deg, #235bd5, #881541,#087299, #08be63 );
     background-size: 400% 400%;
     margin: auto;
@@ -597,7 +729,7 @@ li:nth-child(2) > i {
                     color: turquoise;
                     }
     
-    #desc{
+    #desc2{
     
         text-decoration: none;
         color: white;

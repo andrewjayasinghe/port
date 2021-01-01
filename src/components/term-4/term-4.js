@@ -18,8 +18,8 @@ class Term_4 extends Component {
     <div id="tit">
         <div id="test"  >
             <p id="anum">Courses Completed </p>
-            <p id="desc">This is a portfolio of my educational background which includes the courses
-            I've taken at BCIT and a brief description of what i've learned.
+            <p id="desc">This page includes all of the courses
+            I've completed for Term-4 at BCIT and a brief description of what i've learned.
     </p>
         </div>
     </div>

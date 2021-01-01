@@ -8,62 +8,62 @@ i{
 }
 
 #test{
-    animation: fadein 6s;
+    animation: fadein 2s;
     animation-timing-function: ease-in; 
     margin-top: 20px;
     margin-bottom: 20px; 
 }
 
 #test1{
-    animation: fadein 8s;
+    animation: fadein 3s;
     animation-timing-function: ease-in; 
     margin-top: 20px;
     margin-bottom: 20px;  
 }
 
 #test2{
-    animation: fadein 10s;
+    animation: fadein 3s;
     animation-timing-function: ease-in; 
     margin-top: 20px;
     margin-bottom: 20px;  
 }
 
 #test3{
-    animation: fadein 12s;
+    animation: fadein 5s;
     animation-timing-function: ease-in; 
     margin-top: 20px;
     margin-bottom: 20px;  
 }
 
 #test4{
-    animation: fadein 14s;
+    animation: fadein 6s;
     animation-timing-function: ease-in; 
     margin-top: 20px;
     margin-bottom: 20px;  
 }
 #test5{
-    animation: fadein 16s;
+    animation: fadein 6s;
     animation-timing-function: ease-in; 
     margin-top: 20px;
     margin-bottom: 20px;  
 }
 
 #test5{
-    animation: fadein 18s;
+    animation: fadein 7s;
     animation-timing-function: ease-in; 
     margin-top: 20px;
     margin-bottom: 20px;  
 }
 
 #test6{
-    animation: fadein 20s;
+    animation: fadein 8s;
     animation-timing-function: ease-in; 
     margin-top: 20px;
     margin-bottom: 20px;  
 }
 
 #test7{
-    animation: fadein 22s;
+    animation: fadein 9s;
     animation-timing-function: ease-in; 
     margin-top: 20px;
     margin-bottom: 20px;  
@@ -127,7 +127,7 @@ li:nth-child(2) > i {
 
   #lit {
     position: relative;
-    animation: mymove 5s;
+    animation: moveright 5s;
     animation-timing-function: ease-in;
   }
 
@@ -154,8 +154,10 @@ li:nth-child(2) > i {
     padding-top:5px ;
     padding-bottom:5px ;
     position: relative;
-    animation: mymove1 2s,gradient 16s ease infinite;
-    animation-timing-function: ease-in;       
+    /* animation: moveup 2s,gradient 16s ease infinite; */
+    animation-timing-function: ease-in;
+    -ms-transform: rotate(1deg); /* IE 9 */
+    transform: rotate(1deg);          
 }
 
 
@@ -171,7 +173,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    animation: mymove 4s, gradient 15s ease infinite;
+    /* animation: moveright 2s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;
        
 }
@@ -187,7 +189,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    animation: mymove2 6s, gradient 15s ease infinite;
+    /* animation: moveleft 3s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
        
 }
@@ -204,7 +206,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    animation: mymove 7s, gradient 15s ease infinite;
+    /* animation: moveright 4s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
        
 }
@@ -220,7 +222,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    animation: mymove2 8s, gradient 15s ease infinite;
+    /* animation: moveleft 5s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
 }
 
@@ -235,7 +237,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    animation: mymove 9s, gradient 15s ease infinite;
+    /* animation: moveright 5s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
 }
 
@@ -250,7 +252,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    animation: mymove2 10s, gradient 15s ease infinite;
+    /* animation: moveleft 6s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
 }
 
@@ -265,7 +267,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    animation: mymove 11s,  gradient 15s ease infinite;
+    /* animation: moveright 7s,  gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
 }
 
@@ -282,18 +284,18 @@ li:nth-child(2) > i {
     }
 }
 
-@keyframes mymove {
-    from {right: -1000px;}
+@keyframes moveright {
+    from {right: -30%;}
     to {right: 0px;}
   }
 
-  @keyframes mymove1 {
+  @keyframes moveup {
     from {top: -300px;}
     to {top: 0px;}
   }
 
-  @keyframes mymove2 {
-    from {left: -1000px;}
+  @keyframes moveleft {
+    from {left: -40%;}
     to {left: 0px;}
   }
 
@@ -414,7 +416,7 @@ li:nth-child(2) > i {
         padding-top: 5px;
         padding-bottom:10px;
         position: relative;
-        animation: mymove 4s, gradient 15s ease infinite;
+        /* animation: moveright 4s, gradient 15s ease infinite; */
         animation-timing-function: ease-in;  
            
     }
@@ -430,8 +432,9 @@ li:nth-child(2) > i {
         padding-top: 5px;
         padding-bottom:10px;
         position: relative;
-        animation: mymove1 2s,gradient 16s ease infinite;
-        animation-timing-function: ease-in;       
+        /* animation: moveup 2s,gradient 16s ease infinite; */
+        animation-timing-function: ease-in;  
+           
     }
 
     
@@ -446,7 +449,7 @@ li:nth-child(2) > i {
         padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    animation: mymove2 6s, gradient 15s ease infinite;
+    /* animation: moveleft 6s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
        
 }
@@ -462,7 +465,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    animation: mymove 7s, gradient 15s ease infinite;
+    /* animation: moveright 7s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
        
 }
@@ -478,7 +481,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    animation: mymove2 8s, gradient 15s ease infinite;
+    /* animation: moveleft 8s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
 }
 
@@ -493,7 +496,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    animation: mymove 9s, gradient 15s ease infinite;
+    /* animation: moveright 9s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
 }
 
@@ -508,7 +511,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    animation: mymove2 10s, gradient 15s ease infinite;
+    /* animation: moveleft 10s, gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
 }
 
@@ -523,7 +526,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    animation: mymove 11s,  gradient 15s ease infinite;
+    /* animation: moveright 11s,  gradient 15s ease infinite; */
     animation-timing-function: ease-in;   
 }
 
@@ -539,18 +542,18 @@ li:nth-child(2) > i {
         }
     }
     
-    @keyframes mymove {
-        from {right: -500px;}
+    @keyframes moveright {
+        from {right: -80%;}
         to {right: 0px;}
       }
     
-      @keyframes mymove1 {
+      @keyframes moveup {
         from {top: -300px;}
         to {top: 0px;}
       }
     
-      @keyframes mymove2 {
-        from {left: -300px;}
+      @keyframes moveleft {
+        from {left: -80%;}
         to {left: 0px;}
       }
     
@@ -607,43 +610,3 @@ li:nth-child(2) > i {
     }
 
 }
-
-.flip-box {
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 4s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side */
-  .flip-box-front {
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-box-back {
-    color: white;
-    transform: rotateY(180deg);
-  }
-  

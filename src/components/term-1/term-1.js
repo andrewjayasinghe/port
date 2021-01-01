@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import * as ReactBootStrap from "react-bootstrap";
-import con from "../../assets/bun.jpg"
+import ScrollAnimation from 'react-animate-on-scroll';
 import "./term-1.css"
 
 class Term_1 extends Component {
 
     render() {
 
+            
+
         return (
             <>
                 <ReactBootStrap.Container style={{ marginTop: "20px" }}>
 
                     <ReactBootStrap.Row className="size">
+                    <ScrollAnimation animateIn='animate__backInDown'
+                            animateOut='animate__backOutDown' duration="3">
 
                         <div id="tit">
                             <div id="test"  >
@@ -30,12 +34,14 @@ class Term_1 extends Component {
                         </p>
                             </div>
                         </div>
-
+                        </ScrollAnimation>
                     </ReactBootStrap.Row>
 
 
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+                    <ScrollAnimation animateIn='bounceInLeft'
+                            animateOut='bounceOutRight' duration="2">  
 
                         <div id="al">
                             <div id="test1">
@@ -60,11 +66,14 @@ class Term_1 extends Component {
                                 </p>
                             </div>
                         </div>
+                        </ScrollAnimation>
 
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
 
+                    <ScrollAnimation animateIn='bounceInRight'
+                            animateOut='bounceOutLeft' duration="2">  
                         <div id="al1">
                             <div id="test2">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193044280/" target="blank" id="anum1" >ACIT 1420</a></p>
@@ -90,11 +99,12 @@ class Term_1 extends Component {
 
                             </div>
                         </div>
-
+                        </ScrollAnimation>
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
+                        <ScrollAnimation animateIn='bounceInLeft'
+                            animateOut='bounceOutRight' duration="2">  
                         <div id="al2">
                             <div id="test3">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034355/" target="blank" id="anum1" >ACIT 1630</a></p>
@@ -107,11 +117,12 @@ class Term_1 extends Component {
 
                             </div>
                         </div>
-
+                        </ScrollAnimation>
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
+                    <ScrollAnimation animateIn='bounceInRight'
+                            animateOut='bounceOutLeftt' duration="2">   
                         <div id="al3">
                             <div id="test4">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034319/" target="blank" id="anum1" >ACIT 1515</a></p>
@@ -127,11 +138,12 @@ class Term_1 extends Component {
 
                             </div>
                         </div>
-
+                        </ScrollAnimation>
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
+                    <ScrollAnimation animateIn='bounceInLeft'
+                            animateOut='bounceOutRight' duration="2">   
                         <div id="al4">
                             <div id="test5">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034328/" target="blank" id="anum1" >COMM 1116</a></p>
@@ -142,11 +154,12 @@ class Term_1 extends Component {
 
                             </div>
                         </div>
-
+                        </ScrollAnimation>
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
+                    <ScrollAnimation animateIn='bounceInLeft'
+                            animateOut='bounceOutRight' duration="2"> 
                         <div id="al5">
                             <div id="test6">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193041874/" target="blank" id="anum1" >MATH 1310</a></p>
@@ -161,11 +174,12 @@ class Term_1 extends Component {
  </p>
 
                             </div>  </div>
-
+                            </ScrollAnimation>
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px", marginBottom: "20px" }}>
-
+                    <ScrollAnimation animateIn='bounceInRight'
+                            animateOut='bounceOutLeft' duration="2">  
                         <div id="al6">
                             <div id="test7">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ORGB 1100</a></p>
@@ -183,11 +197,30 @@ class Term_1 extends Component {
 
 
                             </div>  </div>
-
+                            </ScrollAnimation>
                     </ReactBootStrap.Row>
 
 
-                </ReactBootStrap.Container>
+                </ReactBootStrap.Container> 
+{/*                 
+           <ScrollAnimation animateIn='fadeIn'
+  animateOut='fadeOut'>
+  <h1>
+    React Animate On Scroll
+  </h1>
+  <h2>
+    Using:
+  </h2>
+</ScrollAnimation>
+<ScrollAnimation animateIn='bounceInRight'
+  animateOut='bounceOutLeft'>
+  <h2>
+    <a href='https://daneden.github.io/animate.css/'>
+      Animate.css
+    </a>
+  </h2>
+</ScrollAnimation> */}
+
 
             </>
 

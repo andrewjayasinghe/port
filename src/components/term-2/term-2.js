@@ -18,8 +18,8 @@ class Term_2 extends Component {
     <div id="tit1">
         <div id="test"  >
             <p id="anum">Courses Completed </p>
-            <p id="desc">This is a portfolio of my educational background which includes the courses
-            I've taken at BCIT and a brief description of what i've learned.
+            <p id="desc2">This page includes all of the courses
+            I've completed for Term-2 at BCIT and a brief description of what i've learned.
     </p>
         </div>
     </div>
@@ -28,7 +28,7 @@ class Term_2 extends Component {
 
 
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
     <div id="alterm2">
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034322/" target="blank" id="anum1" >ACIT 2420</a></p>
@@ -48,7 +48,7 @@ class Term_2 extends Component {
 
 </ReactBootStrap.Row>
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
     <div id="alterm21">
       
@@ -67,9 +67,9 @@ class Term_2 extends Component {
 
 </ReactBootStrap.Row>
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
-    <div id="al2">
+    <div id="all2">
         <div id="test3">
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034355/" target="blank" id="anum1" >ACIT 2520</a></p>
             <p id="well" className="title">Web Applications Development</p>
@@ -91,7 +91,7 @@ class Term_2 extends Component {
 
 </ReactBootStrap.Row>
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
     <div id="alterm23">
         
@@ -114,7 +114,7 @@ class Term_2 extends Component {
 
 </ReactBootStrap.Row>
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
     <div id="alterm24">
         
@@ -138,13 +138,15 @@ class Term_2 extends Component {
 
 </ReactBootStrap.Row>
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
-    <div id="al5">
-        <div id="test6">
+    <div id="alterm25">
+        
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193041874/" target="blank" id="anum1" >ACIT 2911</a></p>
             <p id="well" className="title">Agile Development Project</p>
-            <p id="desc"  className="title">This course provided me with 
+            <div id="term26">
+            <p id="desc"  className="title">
+                This course provided me with 
             hands-on experience developing application software using the SCRUM
             Agile methodology. Collaboration and teamwork
              were used to continuously develop software over a series of
@@ -157,12 +159,12 @@ class Term_2 extends Component {
 
 </ReactBootStrap.Row>
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px", marginBottom: "20px" }}>
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
 
-    <div id="al6">
-        <div id="test7">
+    <div id="alterm26">
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ACIT 2831</a></p>
             <p id="well" className="title">Business Systems Analysis</p>
+            <div id="term26">
             <p id="desc"  className="title">                                         
             Business Analysis and Systems Design is the study of 
             concepts, processes and tools that professionals
@@ -185,12 +187,12 @@ class Term_2 extends Component {
 
 </ReactBootStrap.Row>
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px", marginBottom: "20px" }}>
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
 
-    <div id="al6">
-        <div id="test7">
+    <div id="alterm27">
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >COMM 2216</a></p>
             <p id="well" className="title">Business Communications 2</p>
+            <div id="term26">
             <p id="desc"  className="title">                                         
             Information technology professionals spend time each day communicating
              orally and in writing with their supervisors, colleagues and clients. 
@@ -209,12 +211,12 @@ class Term_2 extends Component {
 
 </ReactBootStrap.Row>
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px", marginBottom: "20px" }}>
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
 
-    <div id="al6">
-        <div id="test7">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >math 1350</a></p>
+    <div id="alterm28">
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >Math 1350</a></p>
             <p id="well" className="title">Statistics for IT</p>
+            <div id="term26">
             <p id="desc"  className="title">                                         
             Presentation of data in tabular and graphical form. 
             Frequency distribution, measures of central tendency and variation.
