@@ -23,6 +23,11 @@ class Navbar extends Component {
               
               
     <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav" >
+
+      
+  <ReactBootStrap.Nav className="mr-auto">
+
+</ReactBootStrap.Nav>
   
       <ReactBootStrap.Nav className='nav-size' >
       <ReactBootStrap.NavDropdown title="Projects" id="nav-dropdown" className="nav-font" style={{boxShadow: "none"}} >

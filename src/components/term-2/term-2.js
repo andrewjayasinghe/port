@@ -28,14 +28,65 @@ class Term_2 extends Component {
     </ScrollAnimation>
 </ReactBootStrap.Row>
 
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
+
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2" offset={5}>
+
+    <div id="all2">
+        
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20201072390/" target="blank" id="anum1" >ACIT 2520</a></p>
+            <p id="well" className="title">Web Applications Development</p>
+            <p id="desc">Introduced web application development using the MEAN stack
+            enterprise application framework. Topics covered included:
+            <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
+     
+            
+            <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="2"  offset={50}>
+                                    <li id="item"> An introduction to basic Angular and MongoDB syntax
+                                    </li> </ScrollAnimation>
+
+                                    <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="2" delay={1000}  offset={50}>
+                                        <li  id="item"> Setting up and managing the
+                                         development environment </li></ScrollAnimation>
+
+                            <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="3" delay={1000}  offset={50}>
+                                        <li  id="item"> State management, HTML server controls</li>
+                                        </ScrollAnimation>
+
+                            <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="4" delay={1000} offset={50}>
+                                        <li  id="item"> Web controls, code behind data access</li></ScrollAnimation>
+
+                             <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="5" delay={1000} offset={50}>
+                                        <li id="item"> Loading and manipulating XML documents </li></ScrollAnimation>
+                                        
+                                        <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="6" delay={1000} offset={5}>
+                                        <li id="item">Web Services, and security </li></ScrollAnimation>
+            
+            
+              </ul>
+            
+
+</p>
+
+        </div>
+        </ScrollAnimation>
+
+</ReactBootStrap.Row>
 
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
 <ScrollAnimation animateIn='zoomInDown'
-    animateOut='animate__zoomOut' duration="2">
+    animateOut='animate__zoomOut' duration="2" offset={5}>
     <div id="alterm2">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034322/" target="blank" id="anum1" >ACIT 2420</a></p>
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20201086052/" target="blank" id="anum1" >ACIT 2420</a></p>
             <p id="well" className="title">Linux System Administration</p>         
             <div id="term21">
             <p id="desc" className="title">The objective of this course is to teach students
@@ -57,7 +108,7 @@ class Term_2 extends Component {
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
 <ScrollAnimation animateIn='zoomInDown'
-    animateOut='animate__zoomOut' duration="2">
+    animateOut='animate__zoomOut' duration="2" offset={5}>
 
     <div id="alterm21">
       
@@ -76,41 +127,16 @@ class Term_2 extends Component {
     </ScrollAnimation>
 </ReactBootStrap.Row>
 
-<ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
-<ScrollAnimation animateIn='zoomInDown'
-    animateOut='animate__zoomOut' duration="2">
-
-    <div id="all2">
-        
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034355/" target="blank" id="anum1" >ACIT 2520</a></p>
-            <p id="well" className="title">Web Applications Development</p>
-            <p id="desc">Introduced web application development using the MEAN stack
-            enterprise application framework. Topics covered included:
-            <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
-            <li className="test" id="item"><i> An introduction to basic Angular and MongoDB syntax</i></li>
-            <li id="item"><i>Setting up and managing the development environment</i></li>
-            <li id="item"><i>State management, HTML server controls</i></li>
-            <li id="item"><i> Web controls, code behind data access</i></li>
-            <li id="item" ><i>Loading and manipulating XML documents</i></li>
-            <li id="item"><i>Web Services, and security</i></li>   </ul>
-            
-
-</p>
-
-        </div>
-        </ScrollAnimation>
-
-</ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
 <ScrollAnimation animateIn='zoomInDown'
-    animateOut='animate__zoomOut' duration="2">
+    animateOut='animate__zoomOut' duration="2" offset={5}>
 
     <div id="alterm23">
         
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034319/" target="blank" id="anum1" >ACIT 2620</a></p>
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20201072394/" target="blank" id="anum1" >ACIT 2620</a></p>
             <p id="well" className="title">Enterprise Networking</p>
             <div id="term21">
             <p id="desc"  className="title">
@@ -132,11 +158,11 @@ class Term_2 extends Component {
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
 <ScrollAnimation animateIn='zoomInDown'
-    animateOut='animate__zoomOut' duration="2">
+    animateOut='animate__zoomOut' duration="2" offset={5}>
 
     <div id="alterm24">
         
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034328/" target="blank" id="anum1" >ACIT 2811</a></p>
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20201087050/" target="blank" id="anum1" >ACIT 2811</a></p>
             <p id="well" className="title">UX/UI Development Project</p>
             <div id="term21">
             <p id="desc"  className="title">User Experience (UX) encompasses a wide range of
@@ -159,11 +185,11 @@ class Term_2 extends Component {
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px" }}>
 
 <ScrollAnimation animateIn='zoomInDown'
-    animateOut='animate__zoomOut' duration="2">
+    animateOut='animate__zoomOut' duration="2" offset={5}>
 
     <div id="alterm25">
         
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193041874/" target="blank" id="anum1" >ACIT 2911</a></p>
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20201086050/" target="blank" id="anum1" >ACIT 2911</a></p>
             <p id="well" className="title">Agile Development Project</p>
             <div id="term21">
             <p id="desc"  className="title">
@@ -183,13 +209,14 @@ class Term_2 extends Component {
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
 
 <ScrollAnimation animateIn='zoomInDown'
-    animateOut='animate__zoomOut' duration="2">
+    animateOut='animate__zoomOut' duration="2" offset={5}>
 
     <div id="alterm26">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ACIT 2831</a></p>
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20201086059/" target="blank" id="anum1" >ACIT 2831</a></p>
             <p id="well" className="title">Business Systems Analysis</p>
-            <div id="term21">
-            <p id="desc"  className="title">                                         
+          
+            <p id="desc" >    
+            <div id="term21">                                     
             Business Analysis and Systems Design is the study of 
             concepts, processes and tools that professionals
              use to plan and develop information systems. I
@@ -198,15 +225,34 @@ class Term_2 extends Component {
                system. We worked in teams to initiate the system process, 
                analyze problems, discover requirements and create a logical design. 
                Topics included: 
+               </div>
                <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
-            <li className="test" id="item"><i>Techniques used in the discovery of business requirements</i></li>
-            <li id="item"><i>Traditional approaches to data and process modelling, and techniques 
-               for Object Oriented modelling.</i></li>
-           <li id="item"><i> Both Agile and Waterfall approaches to software development</i></li>   </ul>
+           
+           <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="2"  offset={50}>
+                                    <li id="item"> Techniques used in the discovery of business requirements
+                                    </li> </ScrollAnimation>
+                                    
+                                    <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="2" delay={1000}  offset={50}>
+                                        <li  id="item"> Traditional approaches to data and process
+                                         modelling, and techniques 
+               for Object Oriented modelling. </li></ScrollAnimation>
+
+                            <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="3" delay={1000}  offset={50}>
+                                        <li  id="item"> Both Agile and Waterfall approaches to 
+                                        software development</li>
+                                        </ScrollAnimation>
+
+           
+           
+           
+             </ul>
         
                 </p>
 
-                </div>
+            
         </div> 
         </ScrollAnimation>
 
@@ -215,10 +261,10 @@ class Term_2 extends Component {
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
 
 <ScrollAnimation animateIn='zoomInDown'
-    animateOut='animate__zoomOut' duration="2">
+    animateOut='animate__zoomOut' duration="2" offset={5}>
 
     <div id="alterm27">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >COMM 2216</a></p>
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20201072403/" target="blank" id="anum1" >COMM 2216</a></p>
             <p id="well" className="title">Business Communications 2</p>
             <div id="term21">
             <p id="desc"  className="title">                                         
@@ -242,10 +288,10 @@ class Term_2 extends Component {
 <ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
 
 <ScrollAnimation animateIn='zoomInDown'
-    animateOut='animate__zoomOut' duration="2">
+    animateOut='animate__zoomOut' duration="2" offset={5}>
 
     <div id="alterm28">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >Math 1350</a></p>
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20201072405/" target="blank" id="anum1" >Math 1350</a></p>
             <p id="well" className="title">Statistics for IT</p>
             <div id="term21">
             <p id="desc"  className="title">                                         
@@ -262,6 +308,28 @@ class Term_2 extends Component {
         </ScrollAnimation>
 </ReactBootStrap.Row>
 
+<ReactBootStrap.Row className="size" style={{ marginTop: "30px", marginBottom: "20px" }}>
+
+<ScrollAnimation animateIn='zoomInDown'
+    animateOut='animate__zoomOut' duration="2">
+
+    <div id="alterm29">
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20201072405/" target="blank" id="anum1" >ACIT 4770</a></p>
+            <p id="well" className="title"> Legal and Ethical Issues in IT</p>
+            <div id="term21">
+            <p id="desc"  className="title">                                         
+            Presentation of data in tabular and graphical form. 
+            Frequency distribution, measures of central tendency and variation.
+             Probability, discrete and continuous data. Binomial and Normal probability
+              distributions. Sampling, confidence limits, and hypothesis testing.
+               Regression, correlation, and chi-square test. Applications to data and 
+               problems relevant to information technology.
+                </p>
+
+                </div>
+        </div>  
+        </ScrollAnimation>
+</ReactBootStrap.Row>
 </ReactBootStrap.Container>
 
 

@@ -5,8 +5,7 @@
     text-align: left; 
 }
 
-#term21{
-     
+#term21{ 
     text-align: left;  
 }
 
@@ -31,10 +30,7 @@
     margin-bottom: 20px;  
 }
 #term24{
-    animation: fadein 16s;
-    animation-timing-function: ease-in; 
-    margin-top: 20px;
-    margin-bottom: 20px;  
+   
     text-align: left;  
 }
 
@@ -48,79 +44,9 @@
 }
 
 #term26{
-    animation: fadein 20s;
-    animation-timing-function: ease-in;   
+ 
     text-align: left;  
 }
-
-#test7{
-    animation: fadein 22s;
-    animation-timing-function: ease-in; 
-    margin-top: 20px;
-    margin-bottom: 20px;  
-}
-
-@keyframes fadein {
- from { opacity: 0; 
-   }
- to   { opacity: 1;
-    }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
- from { opacity: 0; }
- to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
- from { opacity: 0; }
- to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
- from { opacity: 0; }
- to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
- from { opacity: 0; }
- to   { opacity: 1; }
-}
-
-li:nth-child(2) > i {
-    animation-delay: 2s;
-   
-  }
-
-  li:nth-child(3) > i {
-    animation-delay: 4s;
-    
-  }
-  
-  li:nth-child(4) > i {
-    animation-delay: 6s;
-  }
-  
-  li:nth-child(5) > i {
-    animation-delay: 8s;
-  }
-  
-  li:nth-child(6) > i {
-    animation-delay: 10s;
-  }
-  li:nth-child(7) > i {
-    animation-delay: 12s;
-  }
-
-  #lit {
-    position: relative;
-    animation: mymove 5s;
-    animation-timing-function: ease-in;
-  }
 
 
 
@@ -145,7 +71,7 @@ li:nth-child(2) > i {
     padding-top:5px ;
     padding-bottom:5px ;
     position: relative;
-    /* animation: mymove1 2s,gradient 40s ease infinite; */
+    animation: gradient 40s ease infinite;
     animation-timing-function: ease-in;   
     -ms-transform: rotate(-1deg); /* IE 9 */
     transform: rotate(-1deg);    
@@ -169,7 +95,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove 4s, gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;
     -ms-transform: rotate(1deg); /* IE 9 */
     transform: rotate(1deg);   
@@ -192,7 +118,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove2 6s, gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
     -ms-transform: rotate(-1deg); /* IE 9 */
     transform: rotate(-1deg);    
@@ -215,7 +141,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove 7s, gradient 15s ease infinite; */
+    animation:  gradient 15s ease infinite;
     animation-timing-function: ease-in;   
     -ms-transform: rotate(1deg); /* IE 9 */
     transform: rotate(1deg);         
@@ -238,7 +164,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove2 8s, gradient 15s ease infinite; */
+    animation:  gradient 15s ease infinite;
     animation-timing-function: ease-in;   
     -ms-transform: rotate(-1deg); /* IE 9 */
     transform: rotate(-1deg);  
@@ -261,7 +187,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove 9s, gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
     -ms-transform: rotate(1deg); /* IE 9 */
     transform: rotate(1deg);  
@@ -284,7 +210,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove2 10s, gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in; 
     -ms-transform: rotate(-1deg); /* IE 9 */
     transform: rotate(-1deg);    
@@ -307,7 +233,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove 11s,  gradient 15s ease infinite; */
+    animation:  gradient 15s ease infinite;
     animation-timing-function: ease-in;  
     -ms-transform: rotate(1deg); /* IE 9 */
     transform: rotate(1deg);   
@@ -320,7 +246,7 @@ li:nth-child(2) > i {
 }
 
 #alterm27 {
-    background: linear-gradient(-45deg, #235bd5, #881541,#087299, #08be63 );
+    background: linear-gradient(-45deg, #08be63 , #881541, #235bd5, #087299);
     background-size: 400% 400%;
     margin: auto;
     width:70%;
@@ -330,7 +256,7 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove 11s,  gradient 15s ease infinite; */
+    animation:  gradient 15s ease infinite;
     animation-timing-function: ease-in;  
     -ms-transform: rotate(-1deg); /* IE 9 */
     transform: rotate(-1deg);   
@@ -353,13 +279,36 @@ li:nth-child(2) > i {
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove 11s,  gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;  
     -ms-transform: rotate(1deg); /* IE 9 */
     transform: rotate(1deg);   
 }
 
 #alterm28:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); 
+    transition: all 0.7s ease-in-out;
+}
+
+#alterm29 {
+    background: linear-gradient(-45deg, #27eb90, #da779d,#9fc909, #be0820 );
+    background-size: 400% 400%;
+    margin: auto;
+    width:70%;
+    border-radius: 75px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom:10px;
+    position: relative;
+    animation: gradient 15s ease infinite;
+    animation-timing-function: ease-in;  
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    transform: rotate(-1deg);   
+}
+
+#alterm29:hover{
     -ms-transform: rotate(0deg); /* IE 9 */
     transform: rotate(0deg); 
     transition: all 0.7s ease-in-out;
@@ -504,13 +453,13 @@ li:nth-child(2) > i {
         animation: gradient 15s ease infinite;
         margin: auto;
         width:98%;
-        border-radius: 15px;
-        padding-left: 10px;
+        border-radius: 45px;
+        padding-left: 15px;
         padding-right: 2px;
         padding-top: 5px;
         padding-bottom:10px;
         position: relative;
-        /* animation: mymove 4s, gradient 15s ease infinite; */
+        animation: gradient 15s ease infinite;
         animation-timing-function: ease-in;  
            
     }
@@ -520,13 +469,13 @@ li:nth-child(2) > i {
         background-size: 800% 400%;
         margin: auto;
         width:98%;
-        border-radius: 15px;
+        border-radius: 45px;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 5px;
         padding-bottom:10px;
         position: relative;
-        /* animation: mymove1 2s,gradient 16s ease infinite; */
+        animation: gradient 15s ease infinite;
         animation-timing-function: ease-in;       
     }
 
@@ -536,13 +485,13 @@ li:nth-child(2) > i {
     background-size: 400% 400%;
     margin: auto;
     width:98%;
-    border-radius: 15px;
-    padding-left: 10px;
+    border-radius: 45px;
+    padding-left: 15px;
     padding-right: 2px;
     padding-top: 5px;
     padding-bottom:10px;
     position: relative;
-    /* animation: mymove2 6s, gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
        
 }
@@ -552,13 +501,13 @@ li:nth-child(2) > i {
     background-size: 400% 400%;
     margin: auto;
     width:98%;
-    border-radius: 15px;
-    padding-left: 10px;
+    border-radius: 45px;
+    padding-left: 15px;
     padding-right: 10px;
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    /* animation: mymove 7s, gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
        
 }
@@ -568,13 +517,13 @@ li:nth-child(2) > i {
     background-size: 400% 400%;
     margin: auto;
     width:98%;
-    border-radius: 15px;
-    padding-left: 10px;
+    border-radius: 45px;
+    padding-left: 15px;
     padding-right: 2px;
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    /* animation: mymove2 8s, gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
 }
 
@@ -583,13 +532,13 @@ li:nth-child(2) > i {
     background-size: 400% 400%;
     margin: auto;
     width:98%;
-    border-radius: 15px;
-    padding-left: 10px;
+    border-radius: 45px;
+    padding-left: 15px;
     padding-right: 2px;
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    /* animation: mymove 9s, gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
 }
 
@@ -598,13 +547,13 @@ li:nth-child(2) > i {
     background-size: 400% 400%;
     margin: auto;
     width:98%;
-    border-radius: 15px;
-    padding-left: 10px;
+    border-radius: 45px;
+    padding-left: 15px;
     padding-right: 10px;
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    /* animation: mymove2 10s, gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
 }
 
@@ -613,13 +562,13 @@ li:nth-child(2) > i {
     background-size: 400% 400%;
     margin: auto;
     width:98%;
-    border-radius: 15px;
-    padding-left: 10px;
+    border-radius: 45px;
+    padding-left: 15px;
     padding-right: 10px;
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    /* animation: mymove 11s,  gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
 }
 
@@ -628,13 +577,13 @@ li:nth-child(2) > i {
     background-size: 400% 400%;
     margin: auto;
     width:98%;
-    border-radius: 15px;
-    padding-left: 10px;
+    border-radius: 45px;
+    padding-left: 15px;
     padding-right: 10px;
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    /* animation: mymove 11s,  gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
 }
 
@@ -643,16 +592,31 @@ li:nth-child(2) > i {
     background-size: 400% 400%;
     margin: auto;
     width:98%;
-    border-radius: 15px;
-    padding-left: 10px;
+    border-radius: 45px;
+    padding-left: 15px;
     padding-right: 10px;
     padding-top: 5px;
         padding-bottom:10px;
     position: relative;
-    /* animation: mymove 11s,  gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
 }
 
+#alterm29 {
+    background: linear-gradient(-45deg, #27eb90, #da779d,#9fc909, #be0820 );
+    background-size: 400% 400%;
+    margin: auto;
+    width:98%;
+    border-radius: 45px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom:10px;
+    position: relative;
+    animation: gradient 15s ease infinite;
+    animation-timing-function: ease-in;  
+    
+}
     @keyframes gradient {
         0% {
             background-position: 0% 50%;
