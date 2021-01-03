@@ -18,13 +18,11 @@ class Term_2 extends Component {
                             animateOut='animate__lightSpeedOutLeft' duration="2">
 
     <div id="tit1">
-        <div id="test"  >
             <p id="anum">Courses Completed </p>
             <p id="desc2">This page includes all of the courses
             I've completed for Term-2 at BCIT and a brief description of what i've learned.
     </p>
         </div>
-    </div>
     </ScrollAnimation>
 </ReactBootStrap.Row>
 

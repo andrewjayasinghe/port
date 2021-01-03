@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import * as ReactBootStrap from "react-bootstrap";
-import con from "../../assets/bun.jpg"
+import ScrollAnimation from 'react-animate-on-scroll';
 import "./term-3.css"
+import file from "./../../assets/COVID.pdf" 
 
 class Term_3 extends Component {
 
@@ -14,173 +15,288 @@ class Term_3 extends Component {
           <ReactBootStrap.Container style={{ marginTop: "20px" }}>
 
 <ReactBootStrap.Row className="size">
+<ScrollAnimation animateIn='animate__lightSpeedInLeft'
+        animateOut='animate__lightSpeedOutRight' duration="2" offset={5} >
 
-    <div id="tit">
-        <div id="test"  >
-            <p id="anum">Courses Completed </p>
-            <p id="desc">This page includes all of the courses
-            I've completed for Term-3 at BCIT and a brief description of what i've learned.
+    <div id="tit13">
+            
+                  <p id="anum"> COURSES COMPLETED</p>
+            <p id="desc">This page includes all of the courses I've 
+            completed for Term-3 at BCIT and a brief description of what i've learned.
     </p>
         </div>
-    </div>
-
+    </ScrollAnimation>
 </ReactBootStrap.Row>
 
 
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ScrollAnimation animateIn='bounceIn'
+        animateOut='bounceOut' duration="2" delay={1000} offset={5}>
 
-    <div id="al">
-        <div id="test1">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034322/" target="blank" id="anum1" >ACIT 1620</a></p>
-            <p id="well" className="title">Fundamental Web Technologies</p>
-            <p id="desc">This course introduced me to the fundamental principles and
-            techniques for designing and developing effective Web sites.
-            Topics included:
+    <div id="at31">
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20203045155/" target="blank" id="anum1" >ACIT 3420</a></p>
+            <p id="well" className="title">Windows Server Administration</p>
+            <div id="term21">
+            <p id="desc">
+            <div className="title">Through this course I learned the configuration and administration 
+            of a Microsoft Windows Server environment as well as the core 
+            technologies and capabilities of a Windows Server. 
+            I had to configure a Windows Server to perform a variety of roles,
+              including acting as a DNS server, DHCP server, and file server.
+            During the course, i was able to build a Windows domain consisting 
+               of four Windows and Linux virtual machines, and learn to 
+               troubleshoot and monitor a Windows domain environment.​            
+            Topics include: </div>
+             
+          
         <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }}>
-                    <li id="item"><i> Hand-coding pages with HTML </i></li>
-                    <li id="item"><i> Styling text and
-        content with CSS </i></li>
-                    <li id="item"><i> Adding dynamic features with client-side scripting techniques </i></li>
-                    <li id="item"><i> Server-side scripting and managing files and Web sites using File Transfer Protocol
-         software such as wordpress </i> </li>
-                    <li id="item"><i> I was also introduced to information architecture and interface
-         design, XML, as well as advanced mark-up techniques using DHTML. </i> </li>
+        <ScrollAnimation animateIn='zoomInDown'
+        animateOut='flipOutX' duration="2"  offset={50}>
+                <li id="item">Local and remote server management</li> </ScrollAnimation>
+                <ScrollAnimation animateIn='zoomInDown'
+        animateOut='flipOutX' duration="2" delay={1000}  offset={50}>
+                    <li  id="item"> Server storage & Active Directory (AD); </li></ScrollAnimation>
+
+        <ScrollAnimation animateIn='zoomInDown'
+        animateOut='flipOutX' duration="3" delay={1000}  offset={50}>
+                    <li  id="item"> Managing organization units and AD accounts</li>
+                    </ScrollAnimation>
+
+        <ScrollAnimation animateIn='zoomInDown'
+        animateOut='flipOutX' duration="4" delay={1000} offset={50}>
+                    <li  id="item">  Configuring group policies; </li></ScrollAnimation>
+
+         <ScrollAnimation animateIn='zoomInDown'
+        animateOut='flipOutX' duration="5" delay={1000} offset={5}>
+                    <li id="item"> TCP/IP in Windows network </li></ScrollAnimation>
+
+ <ScrollAnimation animateIn='zoomInDown'
+        animateOut='flipOutX' duration="6" delay={1000} offset={5}>
+                    <li id="item">
+            Domain Name System (DNS) and Dynamic Host Configuration
+             Protocol (DHCP). </li></ScrollAnimation>
+
+             <ScrollAnimation animateIn='zoomInDown'
+        animateOut='flipOutX' duration="7" delay={1000} offset={5}>
+                    <li id="item">
+            IIS Server and Hyper-V</li></ScrollAnimation>
 
                 </ul>
 
 
             </p>
-        </div>
+            </div>
     </div>
+    </ScrollAnimation>
 
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+    <ScrollAnimation animateIn='bounceIn'
+        animateOut='bounceOut' duration="4" offset={5}>  
+    <div id="at32">
+       
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20203040125/" target="blank" id="anum1" >ACIT 3640</a></p>
+            <p id="well" className="title">Cloud Computing (AWS)</p>
+            <div id="test">
+            
+            <p id="desc"  >
+            <div className="title">I was able to examine public cloud environments,
+             including Amazon Web Services (AWS), Microsoft Azure and the Google Cloud Platform in this course. 
+             An emphasis was placed on AWS. I was able to successfully deploy both Windows and Linux virtual
+              machines (EC2 instances), create virtual private clouds (VPCs) and virtual private networks
+               (VPNs). I was also introduced to website and database hosting in a cloud computing
+                environment. Topics include: </div>
+                
+               
+                 
 
-    <div id="al1">
-        <div id="test2">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193044280/" target="blank" id="anum1" >ACIT 1420</a></p>
-            <p id="well" className="title">Windows System Administration</p>
-            <p id="desc">This course was about the configuration, maintenance, and administration
-            of a Windows computer.
-            Topics I studied included:
-<ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
-                    <li className="test" id="item"><i>An introduction to PC hardware, functions of an
-Operating System</i></li>
-                    <li id="item"><i>Windows OS architecture, file and disk management</i></li>
-                    <li id="item"><i>BIOS, UEFI & Firmware</i></li>
-                    <li id="item"><i>Multi-boot & virtual machines</i></li>
-                    <li id="item" ><i>Software installation/removal</i></li>
-                    <li id="item"><i>Performance tuning</i></li>
-                    <li id="item" ><i>Data Backup & Protection, troubleshooting, networking, security,
-virus protection, and firewalls</i></li>
+                  <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
+
+                        <ScrollAnimation animateIn='zoomInDown'
+                        animateOut='flipOutX' duration="2"  offset={50}>
+                        <li id="item">How to apply aspects of the cloud 
+                        computing security models</li> </ScrollAnimation>
+                        <ScrollAnimation animateIn='zoomInDown'
+                        animateOut='flipOutX' duration="2" delay={1000}  offset={50}>
+                        <li  id="item"> Patch and upgrade instances in
+                         production environments and maintain fault tolerant 
+                        websites.
+                        </li></ScrollAnimation>
+
+                        <ScrollAnimation animateIn='zoomInDown'
+                        animateOut='flipOutX' duration="3" delay={1000}  offset={50}>
+                        <li  id="item">Build and deploy a multi-tier cloud application 
+                 utilizing both auto-scaling and load balancing.</li>
+                        </ScrollAnimation>
+
+                        <ScrollAnimation animateIn='zoomInDown'
+                        animateOut='flipOutX' duration="4" delay={1000} offset={50}>
+                        <li  id="item">Examine cloud computing 
+                 strategies for small, medium or large companies, including what computing resources
+                  are candidates for migration to the cloud.</li></ScrollAnimation>
+                        
+                        </ul>
+
+</p>
+
+        </div>
+    </div>
+    </ScrollAnimation>
+</ReactBootStrap.Row>
+
+<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+
+<ScrollAnimation animateIn='bounceIn'
+animateOut='bounceOut' duration="2" offset={5}>   
+<div id="alterm31">
+
+<p id="anum" ><a href="https://www.bcit.ca/outlines/20203034750/" target="blank" id="anum1" >ACIT 3910</a></p>
+<p id="well" className="title">Database Administration and Management (MySQL)</p>
+<div id="test">
+<p id="desc" className="title">In this course I learned how to install, create databases and 
+perform basic administration. I learned how to configure
+ the database to support different applications, perform tasks such as create 
+ users and schema objects, apply constraints, setup access control, assign memory,
+  define storage structures and manipulate data. Since database administration does
+   not end after the database is created, I also learned the importance of 
+   backup and recovery strategy. A good understanding of the DBMS architecture, 
+   performance monitoring and concurrency control are essential to ensure the
+    database operates smoothly to support transaction processing.
+</p>
+
+</div>
+</div>
+
+</ScrollAnimation>
+</ReactBootStrap.Row>
+
+<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ScrollAnimation animateIn='bounceIn'
+        animateOut='bounceOut' duration="2" offset={5}>   
+    <div id="at33">
+        
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20203045160/" target="blank" id="anum1" >ACIT 3475</a></p>
+            <p id="well" className="title">Web Server Administration</p>
+           
+            <p id="desc">
+                <div id="term21" className="title">
+            This course introduced me to the deployment and operations of web applications. 
+            I learned how to implement an existing application into a web stack including web 
+            servers, databases and application servers, and improved the web stack 
+            throughout the course. Topics include:
+            </div>
+            <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
+
+                <ScrollAnimation animateIn='zoomInDown'
+                animateOut='flipOutX' duration="2"  offset={50}>
+                <li id="item"> Web Server Management</li> </ScrollAnimation>
+                <ScrollAnimation animateIn='zoomInDown'
+                animateOut='flipOutX' duration="2" delay={1000}  offset={50}>
+                <li  id="item">Application Servers, 
+            Load Balancing
+                </li></ScrollAnimation>
+
+                <ScrollAnimation animateIn='zoomInDown'
+                animateOut='flipOutX' duration="3" delay={1000}  offset={50}>
+                <li  id="item">Caching, Performance Measurement</li>
+                </ScrollAnimation>
+
+                <ScrollAnimation animateIn='zoomInDown'
+                animateOut='flipOutX' duration="4" delay={1000} offset={50}>
+                <li  id="item">Reverse Proxies</li></ScrollAnimation>
+
+                <ScrollAnimation animateIn='zoomInDown'
+                animateOut='flipOutX' duration="5" delay={1000} offset={50}>
+                <li  id="item">TLS/SSL Security, 
+            Authentication Mechanisms</li></ScrollAnimation>
+
+                <ScrollAnimation animateIn='zoomInDown'
+                animateOut='flipOutX' duration="6" delay={1000} offset={50}>
+                <li  id="item"> Centralized Logging​</li></ScrollAnimation>
+
                 </ul>
 
+</p>
 
 
-            </p>
-
-        </div>
     </div>
-
+    </ScrollAnimation>
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
-    <div id="al2">
-        <div id="test3">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034355/" target="blank" id="anum1" >ACIT 1630</a></p>
-            <p id="well" className="title">Database Systems</p>
-            <p id="desc"  className="title">This course covered relational database technology,
-            including basic concepts, relational algebra, enhanced entity-relationship data modeling,
-            functional dependencies and normalization, design methodology, SQL query language (DDL and DML),
-            views, security and transaction management.
+<ScrollAnimation animateIn='bounceIn'
+        animateOut='bounceOut' duration="2" offset={5}>   
+    <div id="alterm34">
+        
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20203046188/" target="blank" id="anum1" >ACIT 3896</a></p>
+            <p id="well" className="title">Applied Algorithms</p>
+            <div id="test">
+            <p id="desc">​This course was about developping the ability to 
+            analyze and design computer algorithms. In particular, I was able to analyze the
+             time and space complexity of programs, solve difficult programming problems using 
+             algorithmic techniques, and prove that the solution is correct. The emphasis was
+             be on developing the practical skills of analysis and design in Research and Development (R&D)
+              based projects. Topic assigned was 
+              <a href={file} target="blank" id="a1"> COVID-19 Contact Tracing with Data Protection</a> 
 </p>
 
         </div>
     </div>
-
+    </ScrollAnimation>
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
-    <div id="al3">
-        <div id="test4">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034319/" target="blank" id="anum1" >ACIT 1515</a></p>
-            <p id="well" className="title">Scripting using Python</p>
-            <p id="desc"  className="title">The course introduced the fundamental concepts of programming for IT professionals,
-            with a focus on scripting languages that are commonly found in the workplace.
-            Projects, assignments, and activities are representative of tasks that
-            IT professionals are likely to encounter in the workplace. We had to design,
-            implement, test, and debug programs that incorporated: variables, expressions,
-            assignments, I/O, conditional and iterative control constructs, functions,
-            and parameter passing. This was all done using The PYTHON Scripting Language
-</p>
-
-        </div>
-    </div>
-
-</ReactBootStrap.Row>
-
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
-    <div id="al4">
-        <div id="test5">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034328/" target="blank" id="anum1" >COMM 1116</a></p>
-            <p id="well" className="title">Business Communications 1</p>
-            <p id="desc"  className="title">This course has taught me how to be a professional and
-            efficient communicator at work. outcomes were how to communicate quickly, clearly, and effectively.
-</p>
-
-        </div>
-    </div>
-
-</ReactBootStrap.Row>
-
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
-    <div id="al5">
-        <div id="test6">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193041874/" target="blank" id="anum1" >MATH 1310</a></p>
-            <p id="well" className="title">Technical Mathematics for IT</p>
-            <p id="desc"  className="title">This was an introductory course to the core mathematical
-            constructs that underlie information technology. It has provided me with
-            a good base for technical and programming courses i am taking at the moment
-            as well as in the terms to come. Topics covered include select topics from
-            discrete mathematics such as Boolean algebra, numeric systems and data representation,
-            as well as algebraic fundamentals such as
-            algebraic operations, functions, equations and logarithms, linear systems, vectors and matrices.
+<ScrollAnimation animateIn='bounceIn'
+        animateOut='bounceOut' duration="2" offset={5}> 
+    <div id="at34">
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193041874/" target="blank" id="anum1" >ACIT 3900</a></p>
+            <p id="well" className="title">Industry Sponsored Practicum 1</p>
+            <div id="test">
+            <p id="desc" >For this course, students work in teams to complete IT projects that meet the specifications
+             and needs of an external client. Projects are drawn from a variety of sources, 
+             typically organizations within the local IT and Computing community. Projects may
+              require extensive contact with the business and IT community, and may require students 
+              to work at a client site. During this course, instructors act in the role of an IT 
+              manager to ensure students are effectively managing the project work and client relationship.
+              I was assigned to a team of 6, and we were assigned a swiss startup called
+              <a href={file} target="blank" id="a2"> Dans'L Jardin</a> that is a web-based
+              musician booking platform. We were tasked with developping their canadian platform that covers the lower mainland.
+              We used the MERN stack to create the web application. The database we used was MySQL. 
 </p>
 
         </div>  </div>
-
+        </ScrollAnimation>
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px", marginBottom: "20px" }}>
-
-    <div id="al6">
-        <div id="test7">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ORGB 1100</a></p>
-            <p id="well" className="title">Organizational Behavior</p>
+<ScrollAnimation animateIn='bounceIn'
+        animateOut='bounceOut' duration="2" offset={5} >  
+    <div id="at35">
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ACIT 3771</a></p>
+            <p id="well" className="title">IT Service & Project Management</p>
+            <div id="test">
             <p id="desc"  className="title">                                         
-            This course Presented the study of
-        factors that either influence or are influenced by
-        people at work. The course focused on macro factors such
-        as organizational structure, technology and environment; group
-        factors such as group dynamics, leadership, conflict, change and decision making;
-        and micro or individual factors such as personality, attitudes,
-         perception and motivation
+            This course teaches how to effectively manage information technology
+             projects using both AGILE and WATERFALL methods,
+              and the ITIL service lifecycle. It covers all nine project
+              management knowledge areas – project integration, scope, time, cost,
+               quality, human resource, communication, risk and procurement management 
+               and all five process groups – initiating, planning, executing, controlling 
+               and closing from the Project Management Body of Knowledge (PMBOK). It 
+               covers ITIL service lifecycle and IT Service Management in an authentic context.
          </p>
 
 
 
         </div>  </div>
-
+        </ScrollAnimation>
 </ReactBootStrap.Row>
 
 
-</ReactBootStrap.Container>
+</ReactBootStrap.Container> 
+
 
         </>
 

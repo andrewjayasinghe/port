@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import * as ReactBootStrap from "react-bootstrap";
 // import main_logo2 from "./logo-image/logo2.png";
 import "./Navbar.css"
-
-
+import file from "./../../assets/COVID.pdf" 
 
 class Navbar extends Component {
 
@@ -36,6 +35,10 @@ class Navbar extends Component {
         <ReactBootStrap.NavDropdown.Item href="https://dansljardin.herokuapp.com/#/" target="_blank" className="drop" >Dans L' Jardin</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Divider />
         <ReactBootStrap.NavDropdown.Item href="https://headstartschildcare.com/#/" target="_blank" className="drop" >Headstarts Day Care</ReactBootStrap.NavDropdown.Item>
+        
+        <ReactBootStrap.NavDropdown.Divider />
+        <ReactBootStrap.NavDropdown.Item href={file} target="_blank" className="drop" >COVID Tracing with Data Protection Paper</ReactBootStrap.NavDropdown.Item>
+
         <ReactBootStrap.NavDropdown.Divider />
       </ReactBootStrap.NavDropdown>
         <ReactBootStrap.Nav.Link href={process.env.PUBLIC_URL + '/#/'} className="nav-font" id="home">Term-1</ReactBootStrap.Nav.Link >

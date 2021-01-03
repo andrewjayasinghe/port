@@ -97,8 +97,8 @@
     position: relative;
     animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;
-    -ms-transform: rotate(1deg); /* IE 9 */
-    transform: rotate(1deg);   
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    transform: rotate(-1deg);   
 }
 
 #alterm2:hover{
@@ -120,8 +120,8 @@
     position: relative;
     animation: gradient 15s ease infinite;
     animation-timing-function: ease-in;   
-    -ms-transform: rotate(-1deg); /* IE 9 */
-    transform: rotate(-1deg);    
+    -ms-transform: rotate(1deg); /* IE 9 */
+    transform: rotate(1deg);    
 }
 
 #alterm21:hover{
@@ -471,7 +471,7 @@
         width:98%;
         border-radius: 45px;
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: 10px; 
         padding-top: 5px;
         padding-bottom:10px;
         position: relative;

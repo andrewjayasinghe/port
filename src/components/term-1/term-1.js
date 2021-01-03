@@ -22,7 +22,7 @@ class Term_1 extends Component {
                                 <ReactBootStrap.Spinner animation="grow" variant="danger" style={{width: "30px", height:"35px" }}/></div>
                                 <div style={{ display: "inline-block" }}>
                                       <p id="anum"> WELCOME!</p>
-                                </div>
+                                </div> 
                                
                                 <div style={{display:"inline-block"}}>
                                 <ReactBootStrap.Spinner animation="grow" variant="warning" style={{ width: "30px", height:"35px" }}/></div>
@@ -38,8 +38,8 @@ class Term_1 extends Component {
 
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                    <ScrollAnimation animateIn='flipInX'
-                            animateOut='flipOutX' duration="2" delay={1000} offset={5}>
+                    <ScrollAnimation animateIn='animate__backInLeft'
+                            animateOut='animate__backOutRight' duration="2" offset={5}>
 
                         <div id="al">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034322/" target="blank" id="anum1" >ACIT 1620</a></p>
@@ -81,8 +81,8 @@ class Term_1 extends Component {
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                        <ScrollAnimation animateIn='flipInX'
-                            animateOut='flipOutX' duration="2" offset={5}>  
+                        <ScrollAnimation animateIn='animate__backInRight'
+                            animateOut='animate__backOutLeft' duration="2" offset={5}>  
                         <div id="al2">
                            
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034355/" target="blank" id="anum1" >ACIT 1630</a></p>
@@ -101,8 +101,8 @@ class Term_1 extends Component {
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
 
-<ScrollAnimation animateIn='flipInX'
-       animateOut='flipOutX' duration="2" offset={5}>   
+<ScrollAnimation animateIn='animate__backInLeft'
+       animateOut='animate__backOutRight' duration="2" offset={5}>   
    <div id="al1">
      
            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193044280/" target="blank" id="anum1" >ACIT 1420</a></p>
@@ -154,8 +154,8 @@ class Term_1 extends Component {
 </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                    <ScrollAnimation animateIn='flipInX'
-                            animateOut='flipOutX' duration="2" offset={5}>   
+                    <ScrollAnimation animateIn='animate__backInRight'
+                            animateOut='animate__backOutLeft' duration="2" offset={5}>   
                         <div id="al3">
                             
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034319/" target="blank" id="anum1" >ACIT 1515</a></p>
@@ -176,8 +176,8 @@ class Term_1 extends Component {
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                    <ScrollAnimation animateIn='flipInX'
-                            animateOut='flipOutX' duration="2" offset={5}>   
+                    <ScrollAnimation animateIn='animate__backInLeft'
+                            animateOut='animate__backOutRight' duration="2" offset={5}>   
                         <div id="al4">
                             
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034328/" target="blank" id="anum1" >COMM 1116</a></p>
@@ -185,7 +185,7 @@ class Term_1 extends Component {
                                 <div id="test">
                                 <p id="desc"  className="title">This course has taught me how to be a professional and
                                 efficient communicator at work. outcomes were how to communicate quickly, clearly, and effectively.
- </p>
+ </p> 
 
                             </div>
                         </div>
@@ -193,8 +193,8 @@ class Term_1 extends Component {
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-                    <ScrollAnimation animateIn='flipInX'
-                            animateOut='flipOutX' duration="2" offset={5}> 
+                    <ScrollAnimation animateIn='animate__backInRight'
+                            animateOut='animate__backOutLeft' duration="2" offset={5}> 
                         <div id="al5">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193041874/" target="blank" id="anum1" >MATH 1310</a></p>
                                 <p id="well" className="title">Technical Mathematics for IT</p>
@@ -213,8 +213,8 @@ class Term_1 extends Component {
                     </ReactBootStrap.Row>
 
                     <ReactBootStrap.Row className="size" style={{ marginTop: "20px", marginBottom: "20px" }}>
-                    <ScrollAnimation animateIn='flipInX'
-                            animateOut='flipOutX' duration="2" offset={5} >  
+                    <ScrollAnimation animateIn='animate__backInLeft'
+                            animateOut='animate__backOutRight' duration="2" offset={5} >  
                         <div id="al6">
                                 <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ORGB 1100</a></p>
                                 <p id="well" className="title">Organizational Behavior</p>

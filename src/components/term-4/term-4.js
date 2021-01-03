@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import * as ReactBootStrap from "react-bootstrap";
-import con from "../../assets/bun.jpg"
 import "./term-4.css"
 
 class Term_4 extends Component {
