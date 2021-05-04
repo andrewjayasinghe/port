@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import * as ReactBootStrap from "react-bootstrap";
+import ScrollAnimation from 'react-animate-on-scroll';
+
 import "./term-4.css"
 
 class Term_4 extends Component {
@@ -13,170 +15,270 @@ class Term_4 extends Component {
             <ReactBootStrap.Container style={{ marginTop: "20px" }}>
 
 <ReactBootStrap.Row className="size">
-
-    <div id="tit">
-        <div id="test"  >
+<ScrollAnimation animateIn='zoomInDown'
+                            animateOut='animate__zoomOutDown' duration="2" offset={5} >
+    <div id="tit14">
             <p id="anum">Courses Completed </p>
             <p id="desc">This page includes all of the courses
             I've completed for Term-4 at BCIT and a brief description of what i've learned.
     </p>
-        </div>
     </div>
-
+    </ScrollAnimation>
 </ReactBootStrap.Row>
 
 
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
-    <div id="al">
+<ScrollAnimation animateIn='animate__backInLeft'
+                            animateOut='animate__backOutRight' duration="2" offset={5}>
+    <div id="alterm41">
         <div id="test1">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034322/" target="blank" id="anum1" >ACIT 1620</a></p>
-            <p id="well" className="title">Fundamental Web Technologies</p>
-            <p id="desc">This course introduced me to the fundamental principles and
-            techniques for designing and developing effective Web sites.
-            Topics included:
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20211085541/" target="blank" id="anum1" >ACIT 4640</a></p>
+            <p id="well" className="title">IT Systems & Networks Provisioning</p>
+            <div id="term21">
+            <p id="desc">This course introduced me to the concepts, processes, 
+            and tools used in the automated provisioning of IT infrastructure as well as the deployment of 
+            applications using that infrastructure. Projects and activities incorporate the management of
+             physical, virtual, and containerized run-time environments both on premises and in a public cloud.
+              Topics include: bare metal provisioning, 
+            scripted installations, automated image creation, and declarative configuration management.
         <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }}>
-                    <li id="item"><i> Hand-coding pages with HTML </i></li>
-                    <li id="item"><i> Styling text and
-        content with CSS </i></li>
-                    <li id="item"><i> Adding dynamic features with client-side scripting techniques </i></li>
-                    <li id="item"><i> Server-side scripting and managing files and Web sites using File Transfer Protocol
-         software such as wordpress </i> </li>
-                    <li id="item"><i> I was also introduced to information architecture and interface
-         design, XML, as well as advanced mark-up techniques using DHTML. </i> </li>
+        <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="2"  offset={50}>
+                    <li id="item"><i> Write code to automate the creation of base images for use on local 
+                        or cloud infrastructure. </i></li>    </ScrollAnimation>
+                        <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="2" delay={1000}  offset={50}>
+                    <li id="item"><i> Write declarative code to provision and configure infrastructure
+                         and services on a public cloud. Manage all "infrastructure as code" 
+                        artifacts using modern version control. </i></li></ScrollAnimation>
+
+                        <ScrollAnimation animateIn='zoomInDown'
+                            animateOut='flipOutX' duration="3" delay={1000} offset={50}>
+                    <li id="item"><i> Enumerate, compare, select and use popular
+                         configuration management and provisioning tools.</i></li></ScrollAnimation>
+                
 
                 </ul>
 
 
-            </p>
+            </p></div>
         </div>
     </div>
-
+    </ScrollAnimation>
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
-    <div id="al1">
+<ScrollAnimation animateIn='animate__backInRight'
+                            animateOut='animate__backOutLeft' duration="2" offset={5}>
+    <div id="alterm42">
         <div id="test2">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193044280/" target="blank" id="anum1" >ACIT 1420</a></p>
-            <p id="well" className="title">Windows System Administration</p>
-            <p id="desc">This course was about the configuration, maintenance, and administration
-            of a Windows computer.
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20211073676/" target="blank" id="anum1" >ACIT 4850</a></p>
+            <p id="well" className="title">Enterprise Systems Integration</p>
+            <div id="term21">
+            <p id="desc">​This course covered enterprise software development
+             processes and systems integration with a focus on the mechanisms 
+             employed. I learned how to structure solutions using current
+              technologies and protocols such as SonarQube, Jenkins, Confluence, Jira, GitLab to name a few. 
+              I was also able to learn a series of Integration
+               forms from simple to complex partner connections and everything in between. 
+               
             Topics I studied included:
 <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
-                    <li className="test" id="item"><i>An introduction to PC hardware, functions of an
-Operating System</i></li>
-                    <li id="item"><i>Windows OS architecture, file and disk management</i></li>
-                    <li id="item"><i>BIOS, UEFI & Firmware</i></li>
-                    <li id="item"><i>Multi-boot & virtual machines</i></li>
-                    <li id="item" ><i>Software installation/removal</i></li>
-                    <li id="item"><i>Performance tuning</i></li>
-                    <li id="item" ><i>Data Backup & Protection, troubleshooting, networking, security,
-virus protection, and firewalls</i></li>
+                    <li className="test" id="item"><i>Software Source Code Management</i></li>
+                    <li id="item"><i>Work Management and Issue Tracking</i></li>
+                    <li id="item"><i>Knowledge Sharing and Communication</i></li>
+                    <li id="item"><i>Continuous Integration (CI) & Continuous Delivery (CD)</i></li>
+                    <li id="item" ><i>Automated Test</i></li>
+                    <li id="item"><i>Static Code Analysis</i></li>
+                    <li id="item" ><i>Artefact Management and Enable integrations between tools</i></li>
                 </ul>
 
 
 
             </p>
+            </div>
 
         </div>
     </div>
-
+    </ScrollAnimation>
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
-    <div id="al2">
+<ScrollAnimation animateIn='animate__backInLeft'
+                            animateOut='animate__backOutRight' duration="2" offset={5}>
+    <div id="alterm43">
         <div id="test3">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034355/" target="blank" id="anum1" >ACIT 1630</a></p>
-            <p id="well" className="title">Database Systems</p>
-            <p id="desc"  className="title">This course covered relational database technology,
-            including basic concepts, relational algebra, enhanced entity-relationship data modeling,
-            functional dependencies and normalization, design methodology, SQL query language (DDL and DML),
-            views, security and transaction management.
-</p>
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20211086066/" target="blank" id="anum1" >ACIT 4630</a></p>
+            <p id="well" className="title">Information Assuarance & Security</p>
+            <div id="term21">
+            <p id="desc">Through this course, i was able to gain a
+             practical understanding of basic security issues surrounding information systems and
+              typical networks. Topics i studied included understanding basic exploits and identifying 
+              security vulnerabilities. I was able to learn how to use various tools to secure systems on a LAN,
+               perform Audits, hacker identification, and log file analysis. Some tools i used were Wireshark, OWASP , Nmap and Kali Linux.
 
+               Topics I studied included:
+<ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
+                    <li className="test" id="item"><i>Identify vulnerabilities in Windows and Linux operating systems</i></li>
+                    <li id="item"><i>Apply patches and updates to Windows and Linux</i></li>
+                    <li id="item"><i>Backup and recovery procedures</i></li>
+                    <li id="item"><i>Identify various types of possible network attacks</i></li>
+                    <li id="item" ><i>Describe different types of security practices</i></li>
+                    <li id="item"><i>Identify basic threats to information assurance and security</i></li>
+                </ul>
+
+
+
+        </p>
+</div>
         </div>
     </div>
+    </ScrollAnimation>
+</ReactBootStrap.Row>
+
+<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ScrollAnimation animateIn='animate__backInRight'
+                            animateOut='animate__backOutLeft' duration="2" offset={5}>
+
+    <div id="alterm44">
+          <div id="test3">
+            <p id="anum" ><a  href="https://www.bcit.ca/outlines/20211088345/" target="blank" id="anum1" >ACIT 3495</a></p>
+            <p id="well" className="title">Advanced Topics in IT Infrastructure</p> <p id="well" className="title">(Docker & K8)</p>
+            <div id="term21">
+            <p id="desc">This elective course allowed me to study advanced concepts
+             related to IT Infrastructure. Topics are drawn from a variety of sources, with a
+              focus on current industry standard tools and techniques related 
+            to the architecture, design, deployment, and management of IT Infrastructure in organizations.​ The primary 
+            tools used for this course was Docker and Kubernetes.
+            A few learning outcomes include:
+
+<ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
+                    <li className="test" id="item"><i>Discuss various approaches and techniques used to build customized IT infrastructure solutions
+                         that meet the operational needs of a business or organization</i></li>
+                    <li id="item"><i>Evaluate, compare, and recommend IT Infrastructure solutions to solve 
+                        a specified business problem or meet a specified organizational goal</i></li>
+                    <li id="item"><i>Implement and deploy IT Infrastructure 
+                        solutions that utilize industry standard and/or emerging technologies</i></li>
+                 
+                </ul>
+
+
+
+        </p>
+</div>
+        </div>
+    </div>
+    </ScrollAnimation>
 
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ScrollAnimation animateIn='animate__backInLeft'
+                            animateOut='animate__backOutRight' duration="2" offset={5}> 
+    <div id="alterm45">
+        
+         <div id="test3">
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20211087422/" target="blank" id="anum1" >ACIT 3855</a></p>
+            <p id="well" className="title">Service Based Architecture</p>
+            <div id="term21">
+            <p id="desc">
+            This course focused on the design of Enterprise Application Software using Service Based Architecture.
+              I used Service Based Architecture analysis and design techniques to identify business and 
+              systems services. The course also considered various techniques for implementing services including 
+              Web Services and Representational State Transfer. The course reviewed current and emerging 
+              standards that are relevant to Service Oriented Architecture, SaaS, and Micro-services.
+               Course outcomes include:
+<ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
+                    <li className="test" id="item"><i>Explain what Service Based Architectures are and their 
+                        impact on modern Enterprise Application Software.</i></li>
+                    <li id="item"><i>Apply the concepts and principles of Service Based Architectures to software development projects.</i></li>
+                    <li id="item"><i>Compare and contrast Service Based Architecture analysis and design with object-oriented (OO) analysis and design.</i></li>
+                    <li id="item"><i>Design an interoperable Service Based Architecture application</i></li>
+                    <li id="item" ><i>Implement services using REST interfaces.</i></li>
+                </ul>
 
-    <div id="al3">
-        <div id="test4">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034319/" target="blank" id="anum1" >ACIT 1515</a></p>
-            <p id="well" className="title">Scripting using Python</p>
-            <p id="desc"  className="title">The course introduced the fundamental concepts of programming for IT professionals,
-            with a focus on scripting languages that are commonly found in the workplace.
-            Projects, assignments, and activities are representative of tasks that
-            IT professionals are likely to encounter in the workplace. We had to design,
-            implement, test, and debug programs that incorporated: variables, expressions,
-            assignments, I/O, conditional and iterative control constructs, functions,
-            and parameter passing. This was all done using The PYTHON Scripting Language
-</p>
 
-        </div>
+
+        </p>
     </div>
-
-</ReactBootStrap.Row>
-
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
-    <div id="al4">
-        <div id="test5">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034328/" target="blank" id="anum1" >COMM 1116</a></p>
-            <p id="well" className="title">Business Communications 1</p>
-            <p id="desc"  className="title">This course has taught me how to be a professional and
-            efficient communicator at work. outcomes were how to communicate quickly, clearly, and effectively.
-</p>
-
-        </div>
-    </div>
-
-</ReactBootStrap.Row>
-
-<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
-
-    <div id="al5">
-        <div id="test6">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193041874/" target="blank" id="anum1" >MATH 1310</a></p>
-            <p id="well" className="title">Technical Mathematics for IT</p>
-            <p id="desc"  className="title">This was an introductory course to the core mathematical
-            constructs that underlie information technology. It has provided me with
-            a good base for technical and programming courses i am taking at the moment
-            as well as in the terms to come. Topics covered include select topics from
-            discrete mathematics such as Boolean algebra, numeric systems and data representation,
-            as well as algebraic fundamentals such as
-            algebraic operations, functions, equations and logarithms, linear systems, vectors and matrices.
-</p>
-
-        </div>  </div>
+    </div></div>
+    </ScrollAnimation>
 
 </ReactBootStrap.Row>
 
 <ReactBootStrap.Row className="size" style={{ marginTop: "20px", marginBottom: "20px" }}>
+<ScrollAnimation animateIn='animate__backInLeft'
+                            animateOut='animate__backOutRight' duration="2" offset={5}>
+    <div id="alterm47">
+        <div id="test3">
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ACIT 4900</a></p>
+            <p id="well" className="title">Industry Sponsored Practicum 2</p>
+            <div id="term21">
+            <p id="desc"  >                                         
+            This is the second Industry sponsored project within the diploma. Builtspace technologies was the client.
+            They had a legacy php application that generated QR codes which was not scalable at all and had 
+            to be integrated with a modern react application that could handle customer
+             management as well as the QR code information. All systems were to be hosted on AWS.
+              Our project was featured on the official BCIT page on LinkedIn.
+             Due to the NDA signed with the company I am unable to display the source code or the application URL.
+         
+             <ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
+                    <li className="test" id="item"><i>Created a login / registration system that was 
+                        integrated with AWS Cognito user pools.</i></li>
+                    <li id="item"><i>Created an integrated backend that used multiple AWS services and were successfully able to link PHP application</i></li>
+                    <li id="item"><i>Used AWS Dynamo DB that was integrated with Lambda functions in order to create a full CRUD React app</i></li>
+                    <li id="item"><i> Upgraded legacy PHP code to handle multiple requests</i></li>
+                    <li id="item"><i> Created Bash scripts within the EC2 PHP server running the PHP application to 
+                        scale the application accordingly</i></li>
+                    <li id="item"><i>This was an Agile project with weekly deliverables and daily scrum ceremonies</i></li>
 
-    <div id="al6">
-        <div id="test7">
-            <p id="anum" ><a href="https://www.bcit.ca/outlines/20193034585/" target="blank" id="anum1" >ORGB 1100</a></p>
-            <p id="well" className="title">Organizational Behavior</p>
-            <p id="desc"  className="title">                                         
-            This course Presented the study of
-        factors that either influence or are influenced by
-        people at work. The course focused on macro factors such
-        as organizational structure, technology and environment; group
-        factors such as group dynamics, leadership, conflict, change and decision making;
-        and micro or individual factors such as personality, attitudes,
-         perception and motivation
+                </ul>
+                Technologies used: React, HTML, CSS, Javascript, Axios, PHP, Bash, AWS Amplify, AWS Lambda, 
+                AWS Cognito, AWS DynamoDB, AWS API Gateway, AWS S3, AWS EC2
+         
          </p>
 
 
 
-        </div>  </div>
-
+        </div>  </div></div>
+        </ScrollAnimation>
 </ReactBootStrap.Row>
+
+<ReactBootStrap.Row className="size" style={{ marginTop: "20px" }}>
+<ScrollAnimation animateIn='animate__backInRight'
+                            animateOut='animate__backOutLeft' duration="2" offset={5}>
+    <div id="alterm46">
+     
+
+<div id="test3">
+            <p id="anum" ><a href="https://www.bcit.ca/outlines/20211086527/" target="blank" id="anum1" >ACIT 4880</a></p>
+            <p id="well" className="title">Data Analytics</p>
+            <div id="term21">
+            <p id="desc">
+            This course introduced me to the concepts, techniques and tools needed
+             to extract knowledge and information from data. The focus is on large data sets that would be
+              found in a typical enterprise environment. I worked with and analyzed offline as well 
+              as online data. The course covered techniques for data cleaning, manipulation, analysis, and visualization.
+               Course outcomes include:
+<ul style={{ textAlign: 'left', marginLeft: '-5px', marginTop: '10px' }} >
+                    <li className="test" id="item"><i>Create stable and accurate data analytic models for 
+                        data classification, data regression, and data clustering</i></li>
+                    <li id="item"><i>Create data visualization dashboards using Tableau and PowerBI</i></li>
+                    <li id="item"><i>Apply data analytic techniques using Excel and R</i></li>
+                   
+                </ul>
+
+
+
+        </p>
+    </div>
+    </div>
+
+         </div>
+        </ScrollAnimation>
+</ReactBootStrap.Row>
+
 
 
 </ReactBootStrap.Container>

@@ -93,8 +93,8 @@
     position: relative;
     animation: gradient 40s ease infinite;
     animation-timing-function: ease-in;   
-    -ms-transform: rotate(-1deg); /* IE 9 */
-    transform: rotate(-1deg);    
+    -ms-transform: rotate(1deg); /* IE 9 */
+    transform: rotate(1deg);    
 }
 
 #at31:hover{

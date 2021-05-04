@@ -34,7 +34,7 @@ class Term_3 extends Component {
 <ScrollAnimation animateIn='bounceIn'
         animateOut='bounceOut' duration="2" delay={1000} offset={5}>
 
-    <div id="at31">
+    <div id="at31"> 
             <p id="anum" ><a href="https://www.bcit.ca/outlines/20203045155/" target="blank" id="anum1" >ACIT 3420</a></p>
             <p id="well" className="title">Windows Server Administration</p>
             <div id="term21">
