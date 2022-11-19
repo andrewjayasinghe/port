@@ -27,10 +27,9 @@ class Term_1 extends Component {
                                 <div style={{display:"inline-block"}}>
                                 <ReactBootStrap.Spinner animation="grow" variant="warning" style={{ width: "30px", height:"35px" }}/></div>
 
-                                <p id="desc">Here is a brief description of all the courses I've completed for my Computer 
-                                Information Technology Diploma.
+                                <p id="desc">This site contains a brief description of all my education, including the Diploma
                                 I've completed at BCIT and a brief description of what i've learned from each course.
-                                This page contains all the courses i have completed during Term-1
+                                This page contains all the courses i have completed during my first term
                         </p>
                             </div>
                         </ScrollAnimation>
