@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/port/static/css/main.ec292a7b.chunk.css",
-    "main.js": "/port/static/js/main.48376556.chunk.js",
-    "main.js.map": "/port/static/js/main.48376556.chunk.js.map",
+    "main.js": "/port/static/js/main.465ea41f.chunk.js",
+    "main.js.map": "/port/static/js/main.465ea41f.chunk.js.map",
     "runtime-main.js": "/port/static/js/runtime-main.56b9ef37.js",
     "runtime-main.js.map": "/port/static/js/runtime-main.56b9ef37.js.map",
     "static/css/2.5d65327e.chunk.css": "/port/static/css/2.5d65327e.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/Navbar.css": "/port/static/media/NeutraTextDemi.6d62b745.otf",
     "static/media/NSE_1_Certification.80180157.pdf": "/port/static/media/NSE_1_Certification.80180157.pdf",
     "static/media/NSE_3_Certificate.b254af5d.pdf": "/port/static/media/NSE_3_Certificate.b254af5d.pdf",
+    "static/media/VMDR_coursecompletion.7062b0c2.pdf": "/port/static/media/VMDR_coursecompletion.7062b0c2.pdf",
     "static/media/index.css": "/port/static/media/bun.62127238.jpg",
     "static/media/unofficial.f65e1078.pdf": "/port/static/media/unofficial.f65e1078.pdf"
   },
@@ -27,6 +28,6 @@
     "static/css/2.5d65327e.chunk.css",
     "static/js/2.68a2a923.chunk.js",
     "static/css/main.ec292a7b.chunk.css",
-    "static/js/main.48376556.chunk.js"
+    "static/js/main.465ea41f.chunk.js"
   ]
 }
