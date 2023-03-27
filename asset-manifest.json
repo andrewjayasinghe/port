@@ -1,33 +1,27 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.ec292a7b.chunk.css",
-    "main.js": "/port/static/js/main.465ea41f.chunk.js",
-    "main.js.map": "/port/static/js/main.465ea41f.chunk.js.map",
-    "runtime-main.js": "/port/static/js/runtime-main.56b9ef37.js",
-    "runtime-main.js.map": "/port/static/js/runtime-main.56b9ef37.js.map",
-    "static/css/2.5d65327e.chunk.css": "/port/static/css/2.5d65327e.chunk.css",
-    "static/js/2.68a2a923.chunk.js": "/port/static/js/2.68a2a923.chunk.js",
-    "static/js/2.68a2a923.chunk.js.map": "/port/static/js/2.68a2a923.chunk.js.map",
-    "static/js/3.24840eb3.chunk.js": "/port/static/js/3.24840eb3.chunk.js",
-    "static/js/3.24840eb3.chunk.js.map": "/port/static/js/3.24840eb3.chunk.js.map",
+    "main.css": "/port/static/css/main.e564eb86.css",
+    "main.js": "/port/static/js/main.f38c227f.js",
+    "static/js/377.0e289390.chunk.js": "/port/static/js/377.0e289390.chunk.js",
+    "static/media/COVID.pdf": "/port/static/media/COVID.95fac945958817ef018b.pdf",
+    "static/media/NSE_1_Certification.pdf": "/port/static/media/NSE_1_Certification.8018015770b3617c6d28.pdf",
+    "static/media/unofficial.pdf": "/port/static/media/unofficial.f65e1078b719a7e06733.pdf",
+    "static/media/NSE_3_Certificate.pdf": "/port/static/media/NSE_3_Certificate.b254af5d3f29c5804d96.pdf",
+    "static/media/bun.jpg": "/port/static/media/bun.621272384f90d819be9b.jpg",
+    "static/media/134_3_2647869_1668723274_AWS_Course_Completion_Certificate.pdf": "/port/static/media/134_3_2647869_1668723274_AWS_Course_Completion_Certificate.9905ee5f958ac6e8bea3.pdf",
+    "static/media/Cyber-P.pdf": "/port/static/media/Cyber-P.ae8ea7719d0f962b4642.pdf",
+    "static/media/NeutraTextBookItalic.otf": "/port/static/media/NeutraTextBookItalic.44a86a73695ebd8cb506.otf",
+    "static/media/Fenotype - CamperSans2.otf": "/port/static/media/Fenotype - CamperSans2.6a7955e72962c723ed70.otf",
+    "static/media/NeutraTextDemi.otf": "/port/static/media/NeutraTextDemi.6d62b745d0b0c3819a4d.otf",
+    "static/media/NeutraTextBook.otf": "/port/static/media/NeutraTextBook.794f7defd77f3e1c0db9.otf",
+    "static/media/NeutraTextBold.otf": "/port/static/media/NeutraTextBold.f2c4fd968da4f4710241.otf",
     "index.html": "/port/index.html",
-    "static/css/2.5d65327e.chunk.css.map": "/port/static/css/2.5d65327e.chunk.css.map",
-    "static/css/main.ec292a7b.chunk.css.map": "/port/static/css/main.ec292a7b.chunk.css.map",
-    "static/js/2.68a2a923.chunk.js.LICENSE.txt": "/port/static/js/2.68a2a923.chunk.js.LICENSE.txt",
-    "static/media/134_3_2647869_1668723274_AWS_Course_Completion_Certificate.9905ee5f.pdf": "/port/static/media/134_3_2647869_1668723274_AWS_Course_Completion_Certificate.9905ee5f.pdf",
-    "static/media/COVID.95fac945.pdf": "/port/static/media/COVID.95fac945.pdf",
-    "static/media/Navbar.css": "/port/static/media/NeutraTextDemi.6d62b745.otf",
-    "static/media/NSE_1_Certification.80180157.pdf": "/port/static/media/NSE_1_Certification.80180157.pdf",
-    "static/media/NSE_3_Certificate.b254af5d.pdf": "/port/static/media/NSE_3_Certificate.b254af5d.pdf",
-    "static/media/VMDR_coursecompletion.7062b0c2.pdf": "/port/static/media/VMDR_coursecompletion.7062b0c2.pdf",
-    "static/media/index.css": "/port/static/media/bun.62127238.jpg",
-    "static/media/unofficial.f65e1078.pdf": "/port/static/media/unofficial.f65e1078.pdf"
+    "main.e564eb86.css.map": "/port/static/css/main.e564eb86.css.map",
+    "main.f38c227f.js.map": "/port/static/js/main.f38c227f.js.map",
+    "377.0e289390.chunk.js.map": "/port/static/js/377.0e289390.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.56b9ef37.js",
-    "static/css/2.5d65327e.chunk.css",
-    "static/js/2.68a2a923.chunk.js",
-    "static/css/main.ec292a7b.chunk.css",
-    "static/js/main.465ea41f.chunk.js"
+    "static/css/main.e564eb86.css",
+    "static/js/main.f38c227f.js"
   ]
 }
