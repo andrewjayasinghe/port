@@ -7,6 +7,7 @@ import file1 from "./../../assets/unofficial.pdf"
 import nse1 from "./../../assets/NSE_1_Certification.pdf"
 import nse3 from "./../../assets/NSE_3_Certificate.pdf"
 import aws from "./../../assets/134_3_2647869_1668723274_AWS_Course_Completion_Certificate.pdf"
+import cisa from "./../../assets/Cyber-P.pdf"
 
 
 
@@ -64,6 +65,9 @@ class Navbar extends Component {
         
         <ReactBootStrap.NavDropdown.Divider />
         <ReactBootStrap.NavDropdown.Item href={nse3} target="_blank" className="drop" >Fortinet NSE Level 3</ReactBootStrap.NavDropdown.Item>
+
+        <ReactBootStrap.NavDropdown.Divider />
+        <ReactBootStrap.NavDropdown.Item href={cisa} target="_blank" className="drop" >CISA Cert</ReactBootStrap.NavDropdown.Item>
 
         <ReactBootStrap.NavDropdown.Divider />
         <ReactBootStrap.NavDropdown.Item href={aws} target="_blank" className="drop" >AWS Cloud Practitioner Essentials</ReactBootStrap.NavDropdown.Item>
